@@ -48,46 +48,47 @@ Recommended:
 2. Install a clean copy of Skyrim VR from [HERE](https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/).
 	 - If you already have a pre-modded Skyrim VR folder and do not wish to uninstall the vanilla game, you can rename your \SkyrimVR\ folder and then redownload a second clean copy of the game from Steam by reverifying the files.  You can then use one copy of the game to continue playing Skyrim VR along with a second copy of the game for playing Enderal VR.
 3. Run Skyrim VR one time from Steam and then exit the game.
-4. Download Enderal SE from NexusMods OR Steam.
-    -a) If using NexusMods files, login to [NexusMods](https://users.nexusmods.com/auth/sign_in) and download Enderal SE from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
-    -b) If using Steam files, download Enderal SE from [HERE](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/)
+4. Download Enderal SE from NexusMods OR Steam.\
+    - a) If using NexusMods files, login to [NexusMods](https://users.nexusmods.com/auth/sign_in) and download Enderal SE from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)\
+    - b) If using Steam files, download Enderal SE from [HERE](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/)
 5. Download Enderal SE - Update from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
 6. Download Enderal VR - patch from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files)
 7. Extract the contents of SkyrimVR_Repack.rar (This pack contains: SKSE, EngineFixesVR, Binaural 3D Surround Sound, The Sharper Eye, Dragonborn Speaks Naturally, Synthesis, and Nemesis) to:  C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR and overwrite files if prompted.
 8. Install Mod Organizer 2 from [HERE](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files)
-9. Launch Mod Organizer 2 and select the following options: Next > Create a global instance > Browse > Navigate to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and click "Select Folder" > Next > Next > Next > Finish
-  -After performing these steps, the upper left drop down bar should say "SKSE".  If not... Click the drop down bar > Select Edit > Set "Binary" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\sksevr_loader.exe" and "Start in" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and hit OK. 
+9. Launch Mod Organizer 2 and select the following options: Next > Create a global instance > Browse > Navigate to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and click "Select Folder" > Next > Next > Next > Finish\
+  - After performing these steps, the upper left drop down bar should say "SKSE".  If not... Click the drop down bar > Select Edit > Set "Binary" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\sksevr_loader.exe" and "Start in" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and hit OK. 
 10. Navigate to C:\Users\[Username]\AppData\Local\ModOrganizer\Skyrim VR
 11. Delete the \mods\ and \profiles\ folders and replace them with the same folders that are inside ModOrganizer_Repack.rar.  
 12. Install Enderal SE to Mod Organizer 2
-  -If using NexusMods files, drag and drop the "Enderal SE" file from step 4a to the left window pane in MO2.  
-  -If using Steam files, open C:\Users\[Username]\AppData\Local\ModOrganizer\Skyrim VR\mods folder and create an \Enderal SE\ folder.  Copy files from C:\Program Files (x86)\Steam\steamapps\common\Enderal Special Edition\Data\ to \Enderal SE\.  (Skip Skyrim - Animations.* thru Skyrim - Textures.*)
+    - If using NexusMods files, drag and drop the "Enderal SE" file from step 4a to the left window pane in MO2.  
+    - If using Steam files, open C:\Users\[Username]\AppData\Local\ModOrganizer\Skyrim VR\mods folder and create an \Enderal SE\ folder.  Copy files from C:\Program Files (x86)\Steam\steamapps\common\Enderal Special Edition\Data\ to \Enderal SE\.  (Skip Skyrim - Animations.* thru Skyrim - Textures.*)
 13. Install Enderal SE - Update to Mod Organizer 2 
     - Drag and drop the "Enderal SE - Update" file from step 5 to the left window pane in MO2 and then change the mod name in the Quick Install window to "Enderal SE - Update" when installing.
 14. Install Enderal VR - patch to Mod Organizer 2
     - Drag and drop the "Enderal VR - patch" file from step 6 to the left window pane in MO2.
 15. Enable "Enderal SE", "Enderal SE - Update", and "Enderal VR - patch" in Mod Organizer 2 by ticking their associated checkbox in the left window pane.
 16. Configure Load Order
-    ---MO2 Mod Load Order (left side):
-       --Enderal SE
-       --Enderal SE - Update
-       --Enderal SE - Bug Fixes
-       --SkyUI
-       --JContainers VR
-       --moreHUD VR 
-       --SkyrimVRTools
-       --Enderal VR patch
-       --(everything else)
-       --Replace spiders with wolfs and bears (optional) 
-    ---MO2 Plugin Load Order (right side):
-       --Enderal Forgotten Stories.esm
-       --Enderal SE - Bug Fixes.esp
-       --SkyUI_SE.esp
-       --AHZmoreHUD.esp
-       --EnderalVRpatch.esp
-       --(everything else; Enderal SE specific mods should be placed near the bottom)
-       --ReplaceSpidersWithWolfsAndBears.esp (optional; should be placed near the bottom) 
-       --Synthesis.esp (optional; Generated with the Synthesis utility and should be placed dead last)
+
+Required Mod Load Order (left side):
+* Enderal SE
+* Enderal SE - Update
+* Enderal SE - Bug Fixes
+* SkyUI
+* JContainers VR
+* moreHUD VR 
+* SkyrimVRTools
+* Enderal VR patch
+* (everything else)
+
+Required Mod Load Order (right side):
+* Enderal Forgotten Stories.esm
+* Enderal SE - Bug Fixes.esp
+* SkyUI_SE.esp
+* AHZmoreHUD.esp
+* EnderalVRpatch.esp
+* (everything else; Enderal SE specific mods should be placed near the bottom)
+* Synthesis.esp (Generated with the Synthesis utility and should be placed near the bottom)  
+
 17. Tick "Dear Diary" to use an optional Paper UI menu skin.
 18. Tick "Replace spiders with wolfs and bears" in the left window pane if you have arachnophobia and wish to remove spiders! 
 19. Select Tools > Tool Plugin > INI Editor to tweak your Enderal VR settings via that game's INI files.  (These values are already tweaked for VR.)

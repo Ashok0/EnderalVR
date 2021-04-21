@@ -48,8 +48,8 @@ Recommended:
 2. Install a clean copy of Skyrim VR from [HERE](https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/).
 	 - If you already have a pre-modded Skyrim VR folder and do not wish to uninstall the vanilla game, you can rename your \SkyrimVR\ folder and then redownload a second clean copy of the game from Steam by reverifying the files.  You can then use one copy of the game to continue playing Skyrim VR along with a second copy of the game for playing Enderal VR.
 3. Run Skyrim VR one time from Steam and then exit the game.
-4. Download Enderal SE from NexusMods OR Steam.\
-    - a) If using NexusMods files, login to [NexusMods](https://users.nexusmods.com/auth/sign_in) and download Enderal SE from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)\
+4. Download Enderal SE from NexusMods OR Steam.
+    - a) If using NexusMods files, login to [NexusMods](https://users.nexusmods.com/auth/sign_in) and download Enderal SE from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
     - b) If using Steam files, download Enderal SE from [HERE](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/)
 5. Download Enderal SE - Update from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
 6. Download Enderal VR - patch from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files)

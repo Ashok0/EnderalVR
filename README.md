@@ -19,7 +19,7 @@
 ## Preamble
 This guide describes how to configure Skyrim VR to play Enderal: Forgotten Stories SE in VR using Mod Organizer 2.  Note that the ONLY version of Skyrim you need is Skyrim VR.  The Steam edition of Enderal SE is based off the Skyrim SE engine which does not support VR.  While it is NOT possible to add VR to Enderal SE, Skyrim VR can be "modded" with Enderal SE's files (available at NexusMods and Steam) which will allow you to play through the entire game in VR!
 
-This guide simplifies the process of configuring all the required Skyrim VR mods and patches necessary to play Enderal SE in VR using two mod repack files from Google Drive.  The installation process consists of installing Skyrim VR and Mod Organizer 2, followed by extracting two repack files to your Skyrim VR and Mod Organizer 2 folders respectively.  This guide uses a lightweight modlist designed to deliver an optimal VR experience with minimal performance loss.  This modlist was optimized for Virtual Desktop and Air Link and should perform extremely well when playing the game wirelessly.  Special thanks to the Enderal SE modding team and sasa2727 for the VR patch which made this guide possible!
+This guide simplifies the process of configuring all the required Skyrim VR mods and patches necessary to play Enderal SE in VR by using two mod repack files from Google Drive.  The installation process consists of installing Skyrim VR and Mod Organizer 2, followed by extracting two repack files to your Skyrim VR and Mod Organizer 2 folders respectively.  This guide uses a lightweight modlist designed to deliver an optimal VR experience with minimal performance loss.  This modlist was optimized for Virtual Desktop and Air Link and should perform extremely well when playing the game wirelessly.  Special thanks to the Enderal SE modding team and sasa2727 for the VR patch which made this guide possible!
 
 ## System Requirements
 Minimum:
@@ -40,9 +40,8 @@ Recommended:
 ## Requirements
 * [The Elder Scrolls V: Skyrim VR](https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/)
 * [Enderal: Forgotten Stories (Special Edition)](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition)
-* [Wabbajack](https://www.wabbajack.org/#/)
-* [Enderal VR Essentials.wabbajack](https://drive.google.com/file/d/13sFAeS4tZOcpeus134k40jzaYedHQIaQ/view?usp=sharing)
-* [Premium NexusMods account](https://www.nexusmods.com/)
+* [Mod Organizer 2 v2.4.1](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files)
+* [Free NexusMods account](https://www.nexusmods.com/)
 	
 ## Installation
 1. Add Enderal SE to your Steam library from [HERE](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/). The game needs to be in your Steam library but does not need to be installed.

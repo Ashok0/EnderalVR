@@ -68,6 +68,7 @@ Recommended:
     - Drag and drop the "Enderal VR - patch" file from step 6 to the left window pane in MO2.
 15. Enable "Enderal SE", "Enderal SE - Update", and "Enderal VR - patch" in Mod Organizer 2 by ticking their associated checkbox in the left window pane.
 16. Configure Load Order
+
 Required Mod Load Order (left side):
 * Enderal SE
 * Enderal SE - Update
@@ -79,7 +80,7 @@ Required Mod Load Order (left side):
 * Enderal VR patch
 * (everything else)
 
-- Required Mod Load Order (right side):
+Required Mod Load Order (right side):
 * Enderal Forgotten Stories.esm
 * Enderal SE - Bug Fixes.esp
 * SkyUI_SE.esp

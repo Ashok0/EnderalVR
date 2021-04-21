@@ -70,8 +70,8 @@ Recommended:
 16. Configure Load Order
 
 - Required Mod Load Order (left side):
-* Enderal SE
-* Enderal SE - Update
+-- Enderal SE
+** Enderal SE - Update
 * Enderal SE - Bug Fixes
 * SkyUI
 * JContainers VR

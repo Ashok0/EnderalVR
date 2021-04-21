@@ -1,4 +1,4 @@
-# ENDERAL VR ESSENTIALS (EVRE)
+# ENDERAL VR (GOOGLE DRIVE REPACK)
 
 ## Table of contents
 * [Preamble](#preamble)
@@ -19,7 +19,7 @@
 ## Preamble
 This guide describes how to configure Skyrim VR to play Enderal: Forgotten Stories SE in VR using Wabbajack.  Note that the ONLY version of Skyrim you need is Skyrim VR.  The Steam edition of Enderal SE is based off the Skyrim SE engine which does not support VR.  While it is NOT possible to add VR to Enderal SE, Skyrim VR can be "modded" with Enderal SE's files which will allow you to play through the entire game in VR!
 
-Wabbajack simplifies the process of downloading all the required Skyrim VR mods and patches necessary to play Enderal SE in VR to a single click.  This guide uses a lightweight modlist designed to deliver an optimal VR experience with minimal performance loss.  This modlist was optimized for Virtual Desktop and Air Link and should perform extremely well when playing the game wirelessly.  Special thanks to the Enderal SE modding team and sasa2727 for the VR patch which made this guide possible!
+This guide simplifies the process of configuring all the required Skyrim VR mods and patches necessary to play Enderal SE in VR using two mod repack files.  The installation process consists of installing Skyrim VR and Mod Organizer 2, followed by extracting two repack files from Google Drive to your Skyrim VR and Mod Organizer 2 folders.  This guide uses a lightweight modlist designed to deliver an optimal VR experience with minimal performance loss.  This modlist was optimized for Virtual Desktop and Air Link and should perform extremely well when playing the game wirelessly.  Special thanks to the Enderal SE modding team and sasa2727 for the VR patch which made this guide possible!
 
 ## System Requirements
 Minimum:

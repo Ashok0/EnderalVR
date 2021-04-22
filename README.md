@@ -69,7 +69,7 @@ Recommended:
 15. Enable "Enderal SE", "Enderal SE - Update", and "Enderal VR - patch" in Mod Organizer 2 by ticking their associated checkbox in the left window pane.
 16. Configure Load Order
 
-	*Required Mod Load Order (left side):
+	* Required Mod Load Order (left side):
 		* Enderal SE
 		* Enderal SE - Update
 		* Enderal SE - Bug Fixes

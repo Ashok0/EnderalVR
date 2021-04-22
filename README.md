@@ -69,25 +69,25 @@ Recommended:
 15. Enable "Enderal SE", "Enderal SE - Update", and "Enderal VR - patch" in Mod Organizer 2 by ticking their associated checkbox in the left window pane.
 16. Configure Load Order
 
-Required Mod Load Order (left side):
-* Enderal SE
-* Enderal SE - Update
-* Enderal SE - Bug Fixes
-* SkyUI
-* JContainers VR
-* moreHUD VR 
-* SkyrimVRTools
-* Enderal VR patch
-* (everything else)
+	*Required Mod Load Order (left side):
+		* Enderal SE
+		* Enderal SE - Update
+		* Enderal SE - Bug Fixes
+		* SkyUI
+		* JContainers VR
+		* moreHUD VR 
+		* SkyrimVRTools
+		* Enderal VR patch
+		* (everything else)
 
-Required Mod Load Order (right side):
-* Enderal Forgotten Stories.esm
-* Enderal SE - Bug Fixes.esp
-* SkyUI_SE.esp
-* AHZmoreHUD.esp
-* EnderalVRpatch.esp
-* (everything else; Enderal SE specific mods should be placed near the bottom)
-* Synthesis.esp (Generated with the Synthesis utility and should be placed near the bottom) 
+	* Required Mod Load Order (right side):
+		* Enderal Forgotten Stories.esm
+		* Enderal SE - Bug Fixes.esp
+		* SkyUI_SE.esp
+		* AHZmoreHUD.esp
+		* EnderalVRpatch.esp
+		* (everything else; Enderal SE specific mods should be placed near the bottom)
+		* Synthesis.esp (Generated with the Synthesis utility and should be placed near the bottom) 
 
 17. Tick "Dear Diary" to use an optional Paper UI menu skin.
 18. Tick "Replace spiders with wolfs and bears" in the left window pane if you have arachnophobia and wish to remove spiders! 

@@ -57,11 +57,11 @@ Recommended:
 8. Install Mod Organizer 2 from [HERE](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files)
 9. Launch Mod Organizer 2 and select the following options: Next > Create a global instance > Browse > Navigate to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and click "Select Folder" > Next > Next > Next > Finish
    - After performing these steps, the upper left drop down bar should say "SKSE".  If not... Click the drop down bar > Select Edit > Set "Binary" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\sksevr_loader.exe" and "Start in" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and hit OK. 
-10. Navigate to C:\Users\{Username}\AppData\Local\ModOrganizer\Skyrim VR
+10. Navigate to C:\Users\ [Username]\AppData\Local\ModOrganizer\Skyrim VR
 11. Delete the \mods\ and \profiles\ folders and replace them with the same folders that are inside ModOrganizer_Repack.rar.  
 12. Install Enderal SE to Mod Organizer 2
     - If using NexusMods files, drag and drop the "Enderal SE" file from step 4a to the left window pane in MO2.  
-    - If using Steam files, open C:\Users\[Username]\AppData\Local\ModOrganizer\Skyrim VR\mods folder and create an \Enderal SE\ folder.  Copy files from C:\Program Files (x86)\Steam\steamapps\common\Enderal Special Edition\Data\ to \Enderal SE\.  (Skip Skyrim - Animations.* thru Skyrim - Textures.*)
+    - If using Steam files, open C:\Users\ [Username]\AppData\Local\ModOrganizer\Skyrim VR\mods folder and create an \Enderal SE\ folder.  Copy files from C:\Program Files (x86)\Steam\steamapps\common\Enderal Special Edition\Data\ to \Enderal SE\.  (Skip Skyrim - Animations.* thru Skyrim - Textures.*)
 13. Install Enderal SE - Update to Mod Organizer 2 
     - Drag and drop the "Enderal SE - Update" file from step 5 to the left window pane in MO2 and then change the mod name in the Quick Install window to "Enderal SE - Update" when installing.
 14. Install Enderal VR - patch to Mod Organizer 2

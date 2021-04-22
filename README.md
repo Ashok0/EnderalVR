@@ -206,7 +206,7 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 Enderal SE supports language packs which allow the game to be played in Chinese, French, German, Italian, Japanese, Korean, Russian, and Spanish.  You can download the packs [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files).  Install the language pack via Mod Organizer 2 with a unique name i.e. "Enderal SE - German Language Pack" and place it underneath "Enderal SE" and "Enderal SE - Update" in your mod loadout.  Finally, edit the following line "sLanguage=ENGLISH" with the preferred language in the following three files:
 * C:\ (Your Game Folder)\mods\Enderal SE\Enderal - Forgotten Stories.ini
 * C:\ (Your Game Folder)\mods\Enderal SE - Update\Enderal - Forgotten Stories.ini
-* C:\ (Your Game Folder)\mods\Enderal VR - Patch\EnderalVRpatch.ini
+* C:\ (Your Game Folder)\mods\Enderal VR\EnderalVRpatch.ini
 
 ## Included Mods (Skyrim VR Installation Folder)
 [**SKSE VR v2.0.12**](https://skse.silverlock.org): A tool used by many Skyrim mods that expands scripting capabilities and adds additional functionality to the game.

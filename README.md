@@ -192,7 +192,7 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
     * Player.AddItem 000F652C 1 (Nightingale Bow)
 
 ## Supersampling
-* Supersampling can be done via in-game Supersampling and Contrast Adaptive Sharpening (CAS) via The Sharper Eye mod.  For optimal image fidelity and performance, in-game Supersampling should always disabled.  CAS should always be enabled via The Sharper Eye.  This Wabbajack install is pre-configured to supersample the game using The Sharper Eye.
+* Supersampling can be done via in-game Supersampling and Contrast Adaptive Sharpening (CAS) via The Sharper Eye mod.  For optimal image fidelity and performance, in-game Supersampling should always disabled.  CAS should always be enabled via The Sharper Eye.  This Google Drive repack is pre-configured to supersample the game using The Sharper Eye.
 * When using The Sharper Eye for supersampling, pressing the HOME key with Enderal VR active on your Windows desktop will open the built-in Reshade UI. Here you can adjust the parameters for CAS, Contrast, Brightness, and Color Saturation.  Default settings should be optimal for VR.
 * In addition to improving visuals with The Sharper Eye, you can continue to supersample Enderal VR through SteamVR, Oculus Tray Tool, or Virtual Desktop.
     * If playing wired with an HTC/Valve/HP headset, increase your SteamVR resolution above 100% to the maximum resolution your GPU can handle.  
@@ -439,7 +439,7 @@ Enderal SE supports language packs which allow the game to be played in Chinese,
 [**Replace spiders with wolfs and bears v1.0.1**](https://www.nexusmods.com/enderalspecialedition/mods/31?tab=files): Replaces spiders with wolves and bears.
 
 ## GAME TWEAKS 
-Recommended game settings are listed below.  Note that the above Wabbajack install has already been pre-configured with the following tweaks which are merely listed for reference.
+Recommended game settings are listed below.  Note that the above Google Drive repack has already been pre-configured with the following tweaks which are merely listed for reference.
 
 ### INI Settings
 * INI files are found in C:\ (Your Game Folder)\profiles\Enderal VR Essentials
@@ -479,7 +479,7 @@ Recommended game settings are listed below.  Note that the above Wabbajack insta
 11. Distance sliders are set to: Item 20%, Actor 20%, Objects 40%, Grass 100%
 
 ### SkyVRaan Configuration 
-SkyVRaan adds shimmering water effects to the game.  SkyVRaan has been pre-configured with Wabbajack but the configuration process has been documented below for reference. 
+SkyVRaan adds shimmering water effects to the game.  SkyVRaan has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference. 
 1. Close Mod Organizer 2 if open
 2. Create a blank Skyrim.ini file in C:\Users\ (Username)\Documents\My Games\Skyrim VR\
 3. Install .NET SDK 5.0 and remove any previously installed .NET runtimes.  You can confirm .NET SDK 5.0 is properly installed by running the following from your command prompt:  dotnet --info
@@ -499,7 +499,7 @@ SkyVRaan adds shimmering water effects to the game.  SkyVRaan has been pre-confi
 15. You may need to re-run this process if you change your load order.
 
 ### Flinching Configuration 
-Flinching adds flinching animations.  NPCs will react with an animation when attacked with the right fist or melee weapons in either hand.  Flinching has been pre-configured with Wabbajack but the configuration process has been documented below for reference. 
+Flinching adds flinching animations.  NPCs will react with an animation when attacked with the right fist or melee weapons in either hand.  Flinching has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference. 
 1. Launch MO2 and select Tools > Executables > Add an executable ("+" icon in upper left) > Add from file > Navigate to C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\Data\Nemesis_Engine > Select Nemesis Unlimited Behavior Engine.exe > OK
 2. Right click on "Overwrite" in the left window pane and select: Clean Overwrite > OK.  (If applicable, this option may not be available if your overwrite folder is already clean)
 3. Select Nemesis Unlimited Behavior Engine from upper right drop down and click RUN
@@ -511,6 +511,35 @@ Flinching adds flinching animations.  NPCs will react with an animation when att
 9. Tick "Nemesis output" in the left window pane. 
 10. Revert the upper right dropdown bar back to "SKSE".
 11. You may need to re-run this process if you change your load order.
+
+### DynDOLOD Configuration 
+DynDOLOD is a set of simple tools based on xEdit/xLODGen to automatically create a Skyrim mod based on the load order which adds distant LOD for objects and trees to Skyrim.
+DynDOLOD has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference. 
+
+Note that many DynDOLOD guides on the Web are heavily outdated.  While DynDOLOD is a dynamic patch and thus a bit more complicated to setup versus standard mods, the most recent versions are actually fairly simple to configure.  The following steps outline everything necessary to setup DynDOLOD with Enderal VR.
+
+1. Install [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe) if you don't already have it installed.
+2. Extract [SKSE VR](https://skse.silverlock.org/beta/sksevr_2_00_12.7z) to your Skyrim VR installation folder.  If you have already setup Skyrim VR or Enderal VR, this step has most likely already been completed.
+3. Install the following prerequisite mods through Mod Organizer 2:
+	- [SKSE VR](https://skse.silverlock.org/beta/sksevr_2_00_12.7z) (Scripts folder only)
+	- [PapyrusUtil VR - Scripting Utility Functions](https://www.nexusmods.com/skyrimspecialedition/mods/13048?tab=files) (Under "Miscellaneous Files")
+	- [DynDOLOD Resources SE 3.00](https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files) (Under "Miscellaneous Files")
+4. Download [DynDOLOD 3.00](https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files) under "Miscellaneous Files" and extract the contents to a new \DynDOLOD\ directory that is outside of special OS folders like 'Programs Files' or 'Program Files (x86)', User, Documents, Desktop, Download and also not in SteamApps, game or any mod manager folders.
+5. Launch Mod Organizer 2.
+	- Select Tools > Executables  
+	- Select the "+" icon > Select "Add from file..."  > Navigate to "TexGenx64.exe" in the folder created in Step 4 and select "Open". > Type -tes5vr under "Arguments" and click "Apply".  
+	- Select the "+" icon > Select "Add from file..."  > Navigate to "DynDOLODx64.exe" in the folder created in Step 4 and select "Open". > Type -tes5vr under "Arguments" and click "Apply".  
+	- Click OK to return to the main Mod Organizer 2 window. 
+6.  Select TexGenx64 from the upper right drop down bar and click Run.
+	- If you get a "Could not open registry key" error, launch vanilla Skyrim VR one time from Steam.  Then exit Skyrim VR and repeat this step.
+	- If you get a "Found stitched object LOD textures" error click "Ignore".
+	- Click "Start" with default options once the TexGen window appears.
+	- Wait for TexGen to finish running, it typically takes several minutes.  When the process completes, click "Exit TexGen".
+7.  Select DynDOLODx64 from the upper right drop down bar and click Run.
+	- Click "High" once the DynDOLOD window appears.  Wait for DynDOLOD to finish running, it typically takes several minutes.  When the process completes, click "Save & Exit".  
+8.  Navigate to your \DynDOLOD\ folder from Step 4 and copy the \DynDOLOD_Output\ and \TexGen_Output\ to C:\(Your Game Folder Generated By Wabbajack)\mods\
+9.  Launch Mod Organizer 2 and tick "DynDOLOD_Output" and "TexGen_Output" in the left window pane and ensure DynDOLOD.esp is ticked in the right window pane.  
+10.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game!
 
 ### Mod Organizer 2 Settings
 Required Mod Load Order (left side):

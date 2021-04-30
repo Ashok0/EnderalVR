@@ -45,6 +45,8 @@ Recommended:
 * [Enderal: Forgotten Stories (Special Edition)](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition)
 * [Mod Organizer 2 v2.4.1](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files)
 * [Free NexusMods account](https://www.nexusmods.com/)
+* [ModOrganizer_Repack.rar](#)
+* [SkyrimVR_Repack.rar](#)
 	
 ## Installation
 1. Add Enderal SE to your Steam library from [HERE](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/). The game needs to be in your Steam library but does not need to be installed.

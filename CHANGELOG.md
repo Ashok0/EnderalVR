@@ -1,3 +1,3 @@
 # Changelog
 
-v1.0:  Initial Wabbajack release.
+v1.0:  Initial release.

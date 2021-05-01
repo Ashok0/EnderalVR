@@ -93,7 +93,9 @@ Recommended:
 		* AHZmoreHUD.esp
 		* EnderalVRpatch.esp
 		* (everything else; Enderal SE specific mods should be placed near the bottom)
+		* DynDOLOD.esp (Generated with the DynDOLOD utility and should be placed third to last from the bottom)
 		* Synthesis.esp (Generated with the Synthesis utility and should be placed near the bottom) 
+		* AllowFastTravel.esp (Must be placed at the very bottom as the above mods alter world space which will break fast traveling)
 
 17. Configure your mod loadout: 
 	* Disable "Dear Diary VR" if you prefer to use the vanilla SkyUI menu.

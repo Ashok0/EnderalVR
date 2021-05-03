@@ -646,7 +646,7 @@ Required Plugins Load Order (right side):
 * AHZmoreHUD.esp
 * EnderalVRpatch.esp
 * (everything else; Enderal SE specific plugins should be placed near the bottom)
-* DynDOLOD.esp (Generated with the DynDOLOD utility and should be placed third to last from the bottom)
+* DynDOLOD.esp (Generated with the DynDOLOD utility and should be placed near the bottom)
 * Synthesis.esp (Generated with the Synthesis utility and should be placed second to last from the bottom) 
 * AllowFastTravel.esp (Must be placed at the very bottom as the above plugins alter world space which will break fast traveling) 
 

@@ -641,36 +641,6 @@ Note that many DynDOLOD guides on the Web are heavily outdated.  While DynDOLO
 14.  Right click Perfect Terrain LOD.esm in the right window pane and click "Open Origin in Explorer.  You can optionally delete Perfect Terrain LOD.esm as this file is no longer needed once your dynamic patches have all been generated. 
 15.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game!
 
-
-### DynDOLOD Configuration 
-DynDOLOD is a set of simple tools based on xEdit/xLODGen to automatically create a Skyrim mod based on the load order which adds distant LOD for objects and trees to Skyrim.
-DynDOLOD has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference. 
-
-Note that many DynDOLOD guides on the Web are heavily outdated.  While DynDOLOD is a dynamic patch and thus a bit more complicated to setup versus standard mods, the most recent versions are actually fairly simple to configure.  The following steps outline everything necessary to setup DynDOLOD with Enderal VR.
-
-1. Install [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe) if you don't already have it installed.
-2. Extract [SKSE VR](https://skse.silverlock.org/beta/sksevr_2_00_12.7z) to your Skyrim VR installation folder.  If you have already setup Skyrim VR or Enderal VR, this step has most likely already been completed.
-3. Install the following prerequisite mods through Mod Organizer 2:
-	- [SKSE VR](https://skse.silverlock.org/beta/sksevr_2_00_12.7z) (Scripts folder only)
-	- [PapyrusUtil VR - Scripting Utility Functions](https://www.nexusmods.com/skyrimspecialedition/mods/13048?tab=files) (Under "Miscellaneous Files")
-	- [DynDOLOD Resources SE 3.00](https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files) (Under "Miscellaneous Files")
-4. Download [DynDOLOD 3.00](https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files) under "Miscellaneous Files" and extract the contents to a new \DynDOLOD\ directory that is outside of special OS folders like 'Programs Files' or 'Program Files (x86)', Users, Documents, Desktop, Downloads and also not in SteamApps, game or any mod manager folders.
-5. Launch Mod Organizer 2.
-	- Select Tools > Executables  
-	- Select Add an executable ("+" icon in upper left) > Add from file > Navigate to "TexGenx64.exe" in the folder created in Step 4 and select "Open" > Type -tes5vr under "Arguments" and click "Apply".  
-	- Select Add an executable ("+" icon in upper left) > Add from file > Navigate to "DynDOLODx64.exe" in the folder created in Step 4 and select "Open" > Type -tes5vr under "Arguments" and click "Apply".  
-	- Click OK to return to the main Mod Organizer 2 window. 
-6.  Select TexGenx64 from the upper right drop down bar and click Run.
-	- If you get a "Could not open registry key" error, launch vanilla Skyrim VR one time from Steam.  Then exit Skyrim VR and repeat this step.
-	- If you get a "Found stitched object LOD textures" error click "Ignore".
-	- Click "Start" with default options once the TexGen window appears.
-	- Wait for TexGen to finish running, it typically takes several minutes.  When the process completes, click "Exit TexGen".
-7.  Select DynDOLODx64 from the upper right drop down bar and click Run.
-	- Click "High" once the DynDOLOD window appears.  Wait for DynDOLOD to finish running, it typically takes several minutes.  When the process completes, click "Save & Exit".  
-8.  Navigate to your \DynDOLOD\ folder from Step 4 and copy the \DynDOLOD_Output\ and \TexGen_Output\ to C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR\mods
-9.  Launch Mod Organizer 2 and tick "DynDOLOD_Output" and "TexGen_Output" in the left window pane and ensure DynDOLOD.esp is ticked in the right window pane.  
-10.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game!
-
 ### Mod Organizer 2 Settings
 Required Mod Load Order (left side):
 * Enderal SE

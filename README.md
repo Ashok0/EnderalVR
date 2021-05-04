@@ -44,7 +44,7 @@ Recommended:
 ## Requirements
 * [The Elder Scrolls V: Skyrim VR](https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/)
 * [Enderal: Forgotten Stories (Special Edition)](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition)
-* [Mod Organizer 2 v2.4.1](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files)
+* [Mod Organizer 2 v2.4.2rc1.1](https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2rc1.1/Mod.Organizer-2.4.2rc1.1.exe)
 * [Free NexusMods account](https://www.nexusmods.com/)
 * [ModOrganizer_Repack.rar](#)
 * [SkyrimVR_Repack.rar](#)
@@ -60,7 +60,7 @@ Recommended:
 5. Download Enderal SE - Update from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
 6. Download Enderal VR - patch from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files)
 7. Extract the contents of SkyrimVR_Repack.rar (This pack contains: SKSE, EngineFixesVR, Binaural 3D Surround Sound, The Sharper Eye, Dragonborn Speaks Naturally, Synthesis, and Nemesis) to:  C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR and overwrite files if prompted.
-8. Install Mod Organizer 2 from [HERE](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files)
+8. Install Mod Organizer 2 from [HERE](https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2rc1.1/Mod.Organizer-2.4.2rc1.1.exe)
 9. Launch Mod Organizer 2 and select the following options: Next > Create a global instance > Browse > Navigate to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and click "Select Folder" > Next > Next > Next > Finish
    - After performing these steps, the upper left drop down bar should say "SKSE".  If not... Click the drop down bar > Select Edit > Set "Binary" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\sksevr_loader.exe" and "Start in" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and hit OK. 
 10. Navigate to C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR

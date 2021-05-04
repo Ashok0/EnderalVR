@@ -602,6 +602,48 @@ SkyVRaan adds shimmering water effects to the game.  SkyVRaan has been pre-confi
 
 ### DynDOLOD Configuration 
 DynDOLOD is a set of simple tools based on xEdit/xLODGen to automatically create a Skyrim mod based on the load order which adds distant LOD for objects and trees to Skyrim.
+DynDOLOD has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference.
+
+Note that many DynDOLOD guides on the Web are heavily outdated.  While DynDOLOD is a dynamic patch and thus a bit more complicated to setup versus standard mods, the most recent versions are actually fairly simple to configure.  The following steps outline everything necessary to setup DynDOLOD with Enderal VR.
+
+1. Install [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://aka.ms/vs/16/release/vc_redist.x64.exe) if you don't already have it installed.
+2. Extract [SKSE VR](https://skse.silverlock.org/beta/sksevr_2_00_12.7z) to your Skyrim VR installation folder.  If you have already setup Skyrim VR or Enderal VR, this step has most likely already been completed.
+3. Install the following prerequisite mods through Mod Organizer 2:
+	- [SKSE VR](https://skse.silverlock.org/beta/sksevr_2_00_12.7z) (Scripts folder only)
+	- [PapyrusUtil VR - Scripting Utility Functions](https://www.nexusmods.com/skyrimspecialedition/mods/13048?tab=files) (Under "Miscellaneous Files")
+	- [DynDOLOD Resources SE 3.00](https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files) (Under "Miscellaneous Files")
+4. Install a terrain LOD mod through Mod Organizer 2.  If using Tamrielic textures, the [Terrain LOD for Tamrielic Textures](https://www.nexusmods.com/skyrimspecialedition/mods/39563?tab=files) mod is recommended.
+	- Place this mod AFTER all other Skyrim SE texture mods in your load order in the left window pane.
+	- Move the Perfect Terrain LOD.esm plugin underneath Enderal - Forgotten Stories.esm in the right window pane.
+5. Download [DynDOLOD 3.00](https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files) under "Miscellaneous Files" and extract the contents to a new \DynDOLOD\ directory that is outside of special OS folders like 'Programs Files' or 'Program Files (x86)', Users, Documents, Desktop, Downloads and also not in SteamApps, game or any mod manager folders.
+6. Download [xLODGen - Beta 79](https://stepmodifications.org/forum/topic/15184-xlodgen-terrain-settings-compare/) and extract the contents to a new \xLODGen\ directory that is outside of special OS folders like 'Programs Files' or 'Program Files (x86)', Users, Documents, Desktop, Downloads and also not in SteamApps, game or any mod manager folders.
+7. Launch Mod Organizer 2.
+	- Select Tools > Executables  
+	- Select Add an executable ("+" icon in upper left) > Add from file > Navigate to "TexGenx64.exe" in the folder created in Step 5 and select "Open" > Type -tes5vr under "Arguments" and click "Apply".  
+	- Select Add an executable ("+" icon in upper left) > Add from file > Navigate to "DynDOLODx64.exe" in the folder created in Step 5 and select "Open" > Type -tes5vr under "Arguments" and click "Apply".  
+	- Select Add an executable ("+" icon in upper left) > Add from file > Navigate to "xLODGenx64.exe" in the folder created in Step 6 and select "Open" > Type -tes5vr -o:"c:\xLODGen_Output\" under "Arguments" and click "Apply".  
+	- Click OK to return to the main Mod Organizer 2 window. 
+8.  Select TexGenx64 from the upper right drop down bar and click Run.
+	- If you get a "Could not open registry key" error, launch vanilla Skyrim VR one time from Steam.  Then exit Skyrim VR and repeat this step.
+	- If you get a "Found stitched object LOD textures" error click "Ignore".
+	- Click "Start" with default options once the TexGen window appears.
+	- Wait for TexGen to finish running, it typically takes several minutes.  When the process completes, click "Exit TexGen".
+9.  Select DynDOLODx64 from the upper right drop down bar and click Run.
+	- Click "High" once the DynDOLOD window appears.  Wait for DynDOLOD to finish running, it typically takes several minutes.  When the process completes, click "Save & Exit".  
+10.  Select xLODGenx64 from the upper right drop down bar and click Run.  
+		- Tick all world spaces once the xLODGen window appears.  Tick Terrain LOD.  Leave Objects LOD, Trees LOD, and Occlusion unticked.  Then click Generate.
+		- If xLODGen freezes or crashes when running, re-run the process a 2nd time and it should complete successfully.
+		- Close the xLODGen window once you see "LOD generation complete".
+		
+11.  Navigate to C:\xLODGen_Output\ and move this folder to C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR\mods
+12.  Navigate to your \DynDOLOD\ folder from Step 5 and move the \DynDOLOD_Output\ and \TexGen_Output\ to C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR\mods
+13.  Launch Mod Organizer 2 and tick "TexGen_Output", "DynDOLOD_Output", and "xLODGen_Output" in the left window pane and ensure DynDOLOD.esp is ticked in the right window pane.
+14.  Right click Perfect Terrain LOD.esm in the right window pane and click "Open Origin in Explorer.  You can optionally delete Perfect Terrain LOD.esm as this file is no longer needed once your dynamic patches have all been generated. 
+15.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game!
+
+
+### DynDOLOD Configuration 
+DynDOLOD is a set of simple tools based on xEdit/xLODGen to automatically create a Skyrim mod based on the load order which adds distant LOD for objects and trees to Skyrim.
 DynDOLOD has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference. 
 
 Note that many DynDOLOD guides on the Web are heavily outdated.  While DynDOLOD is a dynamic patch and thus a bit more complicated to setup versus standard mods, the most recent versions are actually fairly simple to configure.  The following steps outline everything necessary to setup DynDOLOD with Enderal VR.

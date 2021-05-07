@@ -10,8 +10,7 @@
 * [Known issues](#known-issues)
 * [Scoped bows](#scoped-bows)
 * [Supersampling](#supersampling)
-* [RaceMenu Presets](#racemenu-presets)
-* [Bodypaint](#bodypaint)
+* [Character Customization](#character-customization)
 * [Game capture](#game-capture)
 * [Language packs](#language-packs)
 * [Tools](#tools)
@@ -227,7 +226,8 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
     * Player.AddItem 000F5D22 1 (Gauldur Blackbow)
     * Player.AddItem 000F652C 1 (Nightingale Bow)
 
-## RaceMenu Presets
+## Character Customization
+# RaceMenu Presets
 You can customize your character's appearance any time in-game by pressing "~" to access the console and entering:  showracemenu.  Note that you should never change your Race or you will lose all your stats.  While your appearance is mostly irrelevant in VR, it can be fun to customize your avatar if you wish to take selfies in VR using the VRIK "Selfie Mode".
 
 If you wish to use a custom RaceMenu Preset, perform the following steps:
@@ -241,7 +241,7 @@ If you wish to use a custom RaceMenu Preset, perform the following steps:
 8. To view your avatar, navigate to the in-game menu and select System > Mod Configuration > VRIK > Controls > Tick "Selfie Mode"
 9. Return to your game and raise your right hand in the air to enter and exit "Selfie Mode".  You can now see your avatar in third person for taking selfies in VR! 
 
-## Bodypaint
+# Bodypaint
 If you like bodypaint, you can actually customize your character with bodypaint and view your bodypaint in VR on your VRIK body.  You cannot apply bodypaint through RaceMenu, however, as RaceMenu treats paint as overlays which won't work properly with VRIK.  To use bodypaint, you need to apply the paint directly to your player's skin texture file using the "Equipable Female Tattoo UNP CBBE" mod.  You can do this through the following steps (female only):
 1. Download a CBBE bodypaint mod of interest from NexusMods.
 2. Unpack the contents and then extract the contents of the .bsa files with [Bethesda Archive Extractor v0.10](https://www.nexusmods.com/skyrimspecialedition/mods/974?tab=files). 
@@ -252,7 +252,7 @@ If you like bodypaint, you can actually customize your character with bodypaint 
 7. Finally, enable "Equippabe Tattoo Skins UNP + CBBE" in Mod Organizer 2 and launch the game! 
 8. Travel to a forge and craft your warpaint as a tattoo.  Bodypaint will be added to your inventory where you can apply it to your body in VR and successfully view it on your VRIK body!
 
-## Supersampling
+# Supersampling
 * Supersampling can be done via in-game Supersampling and Contrast Adaptive Sharpening (CAS) via The Sharper Eye mod.  For optimal image fidelity and performance, in-game Supersampling should always disabled.  CAS should always be enabled via The Sharper Eye.  This Google Drive repack is pre-configured to supersample the game using The Sharper Eye.
 * When using The Sharper Eye for supersampling, pressing the HOME key with Enderal VR active on your Windows desktop will open the built-in Reshade UI. Here you can adjust the parameters for CAS, Contrast, Brightness, and Color Saturation.  Default settings should be optimal for VR.
 * In addition to improving visuals with The Sharper Eye, you can continue to supersample Enderal VR through SteamVR, Oculus Tray Tool, or Virtual Desktop.

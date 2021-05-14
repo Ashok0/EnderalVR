@@ -718,7 +718,8 @@ Note that many DynDOLOD guides on the Web are heavily outdated.  While DynDOLO
 13.  Close MO2.  Navigate to C:\xLODGen_Output\ and move this folder to C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR\mods.  Launch MO2 and enable xLODGen_Output in the left window pane.
 14.  Confirm "TexGen_Output", "DynDOLOD_Output", and "xLODGen_Output" are ticked in the left window pane and ensure DynDOLOD.esp is ticked in the right window pane.
 15.  Right click Perfect Terrain LOD.esm in the right window pane and click "Open Origin in Explorer.  You can optionally delete Perfect Terrain LOD.esm as this file is no longer needed once your dynamic patches have all been generated. 
-16.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game!
+16.  Revert the upper right dropdown bar back to "SKSE".
+17.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game!
 
 ### Mod Organizer 2 Settings
 Required Mod Load Order (left side):

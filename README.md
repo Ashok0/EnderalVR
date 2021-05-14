@@ -644,17 +644,19 @@ Recommended game settings are listed below.  Note that the above Google Drive re
 ### Flinching Configuration 
 Flinching adds flinching animations.  NPCs will react with an animation when attacked with the right fist or melee weapons in either hand.  Flinching has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference. 
 
-1. Launch MO2 and select Tools > Executables > Add an executable ("+" icon in upper left) > Add from file > Navigate to C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\Data\Nemesis_Engine > Select Nemesis Unlimited Behavior Engine.exe > OK
-2. Right click on "Overwrite" in the left window pane and select: Clean Overwrite > OK.  (If applicable, this option may not be available if your overwrite folder is already clean)
-3. Select Nemesis Unlimited Behavior Engine from upper right drop down and click RUN
-4. Click OK for both Warning pop-ups
-5. Click "Update Engine"
-6. Tick the "Flinching Animations" option and click "Launch Nemesis Behavior Engine"
-7. Wait for the process to finish and then close the Nemesis Unlimited Behavior Engine.
-8. Right click on "Overwrite" and select "Create Mod".  Enter a custom name i.e. Nemesis output and click OK.
-9. Tick "Nemesis output" in the left window pane. 
-10. Revert the upper right dropdown bar back to "SKSE".
-11. You may need to re-run this process if you change your load order.
+1. Download Nemesis Unlimited Behavior Engine from [HERE](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases).
+2. Launch MO2 and install Nemesis Unlimited Behavior Engine as a regular mod.  (This tool must be run from the MO2 virtual file system or Skyrim Data folder)
+3. select Tools > Executables > Add an executable ("+" icon in upper left) > Add from file > Navigate to "Nemesis Unlimited Behavior Engine.exe" in the \mods\Nemesis\Nemesis_Engine\ subfolder in your MO2 folder and select "Open"
+4. Right click on "Overwrite" in the left window pane and select: Clean Overwrite > OK.  (If applicable, this option may not be available if your overwrite folder is already clean)
+5. Select Nemesis Unlimited Behavior Engine from upper right drop down and click RUN
+6. Click OK for both Warning pop-ups
+7. Click "Update Engine"
+8. Tick the "Flinching Animations" option and click "Launch Nemesis Behavior Engine"
+9. Wait for the process to finish and then close the Nemesis Unlimited Behavior Engine.
+10. Right click on "Overwrite" and select "Create Mod".  Enter a custom name i.e. Nemesis output and click OK.
+11. Tick "Nemesis output" in the left window pane. 
+12. Revert the upper right dropdown bar back to "SKSE".
+13. You may need to re-run this process if you change your load order.
 
 ### SkyVRaan Configuration 
 SkyVRaan adds shimmering water effects to the game.  SkyVRaan has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference.  This process should be run immediately before or after DynDOLOD/xLODGen (if using DynDOLOD/xLODGen).  If you have installed a terrain LOD mod, disable any correpsonding .esm files when patching SkyVRaan as terrain LOD .esm files only need to be active when running DynDOLOD/xLODGen. 
@@ -663,20 +665,21 @@ SkyVRaan adds shimmering water effects to the game.  SkyVRaan has been pre-confi
 2. Close Mod Organizer 2 if open
 3. Create a blank Skyrim.ini file in C:\Users\ (Username)\Documents\My Games\Skyrim VR\
 4. Install .NET SDK 5.0 and remove any previously installed .NET runtimes.  You can confirm .NET SDK 5.0 is properly installed by running the following from your command prompt:  dotnet --info
-5. Launch MO2 and select Tools > Executables > Add an executable ("+" icon in upper left) > Add from file > Navigate to C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\Data\Synthesis\ > Select Synthesis.exe > OK
-6. Right click on "Overwrite" in the left window pane and select: Clean Overwrite > OK. (If applicable, this option may not be available if your overwrite folder is already clean)
-7. Select Synthesis from upper right dropdown and click RUN
-8. Select Skyrim VR
-9. Select Git Repository (2nd icon in upper left) 
-10. Search for SkyVRaan and select the "+" icon next to SkyVRaanAutoPatcher and SkyVRaanWeatherPatcher
-11. Click RUN icon
-12. Wait for the utility to report "Completed" and close Synthesis.  If Synthesis errors out when patching SkyVRaan, try the following:
+5. Download Synthesis from [HERE](https://github.com/Mutagen-Modding/Synthesis/releases/) and extract it to a folder anywhere on your drive called \Synthesis\  
+6. Launch MO2 and select Tools > Executables > Add an executable ("+" icon in upper left) > Add from file > Navigate to "Synthesis.exe" in the folder created in Step 5 and select "Open"
+7. Right click on "Overwrite" in the left window pane and select: Clean Overwrite > OK. (If applicable, this option may not be available if your overwrite folder is already clean)
+8. Select Synthesis from upper right dropdown and click RUN
+9. Select Skyrim VR
+10. Select Git Repository (2nd icon in upper left) 
+11. Search for SkyVRaan and select the "+" icon next to SkyVRaanAutoPatcher and SkyVRaanWeatherPatcher
+12. Click RUN icon
+13. Wait for the utility to report "Completed" and close Synthesis.  If Synthesis errors out when patching SkyVRaan, try the following:
 	- Select SkyVRaanAutoPatcher and SkyVRaanWeatherPatcher in the left hand bar and set "Mutagen" and "Synthesis" to "Latest".
 	- Click "Skyrim VR" in the top bar.  Under Data Folder Location, enter the following path: C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\Data
-13. Right click on "Overwrite" and select "Create Mod".  Enter a custom name i.e. Synthesis output and click OK.
-14. Tick "Synthesis output" in the left window pane and make sure "Synthesis.esp" is near the bottom of your Plugin load order and ticked in the right window pane.  
-15. Revert the upper right dropdown bar back to "SKSE".
-16. You may need to re-run this process if you change your load order.
+14. Right click on "Overwrite" and select "Create Mod".  Enter a custom name i.e. Synthesis output and click OK.
+15. Tick "Synthesis output" in the left window pane and make sure "Synthesis.esp" is near the bottom of your Plugin load order and ticked in the right window pane.  
+16. Revert the upper right dropdown bar back to "SKSE".
+17. You may need to re-run this process if you change your load order.
 
 ### DynDOLOD Configuration 
 DynDOLOD is a set of simple tools based on xEdit/xLODGen to automatically create a Skyrim mod based on the load order which adds distant LOD for objects and trees to Skyrim.
@@ -719,7 +722,7 @@ Note that many DynDOLOD guides on the Web are heavily outdated.  While DynDOLO
 14.  Confirm "TexGen_Output", "DynDOLOD_Output", and "xLODGen_Output" are ticked in the left window pane and ensure DynDOLOD.esp is ticked in the right window pane.
 15.  Right click Perfect Terrain LOD.esm in the right window pane and click "Open Origin in Explorer.  You can optionally delete Perfect Terrain LOD.esm as this file is no longer needed once your dynamic patches have all been generated. 
 16.  Revert the upper right dropdown bar back to "SKSE".
-17.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game!
+17.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game! (You may need to re-run this process if you change your load order.)
 
 ### Mod Organizer 2 Settings
 Required Mod Load Order (left side):

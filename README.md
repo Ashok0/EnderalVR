@@ -105,7 +105,6 @@ Recommended:
 	* Disable "Caliente's Beautiful Bodies Enhancer -CBBE-" if you prefer vanilla bodies.  Pre-configured as Vanilla NeverNude.
 	* Disable "Bijin Skin UNP and CBBE" if you prefer vanilla skin.
 	* Enable "Equippable Tattoo Skins UNP + CBBE" if you wish to apply tattoos/bodypaint to your character (female only).
-	* Enable "Story Mode" if you wish to enable gameplay tweaks to make the game enjoyable without worrying about micromanaging and difficulty.
 	* Enable "Replace spiders with wolfs and bears" if you have arachnophobia!
 18. Select Tools > Tool Plugin > INI Editor to tweak your Enderal VR settings via that game's INI files.  (These values are already tweaked for VR.)
 19. Make sure "SKSE" is selected in the upper right dropdown bar and click "Run" to launch and play Enderal VR!

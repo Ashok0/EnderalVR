@@ -194,8 +194,6 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 
 &#x1F53A; **SMALL PERFORMANCE DROP --- For lower end GPUs, you may wish to experiment with disabling "SkyVRaan - Shimmering VR Waters" in Mod Organizer 2.** &#x1F53A;
 
-[**Story Mode**](https://www.nexusmods.com/enderalspecialedition/mods/123?tab=files): Enderal Story Mode includes gameplay tweaks to make the game enjoyable without worrying about micromanaging and difficulty.  Increases health/mana/stamina, movement speed, carry capacity, and mana regeneration.  Decreases cost of leaning books.  Adds health regen, full healing from food, and rebalances damage.
-
 [**Replace spiders with wolfs and bears**](https://www.nexusmods.com/enderalspecialedition/mods/31?tab=files): Replaces spiders with wolves and bears.  Enable if you have arachnophobia! 
 
 [**DynDOLOD**](https://www.nexusmods.com/skyrimspecialedition/mods/32382/?tab=files): Adds distant LOD for objects and trees to Skyrim.  When looking across the horizon in large open areas, this mod allows you to see FAR more detail than what is possible with the vanilla game, even with in-game LOD settings set to max.

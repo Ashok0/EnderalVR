@@ -742,16 +742,16 @@ Note that many DynDOLOD guides on the Web are heavily outdated or are not relev
 	- Select Add an executable ("+" icon in upper left) > Add from file > Navigate to "DynDOLODx64.exe" in the folder created in Step 6 and select "Open" > Type -tes5vr under "Arguments" and click "Apply".  
 	- Click OK to return to the main Mod Organizer 2 window. 
 8.  Select xLODGenx64 from the upper right drop down bar and click Run.  
-		- Tick all world spaces once the xLODGen window appears.  Tick Terrain LOD.  Leave Objects LOD, Trees LOD, and Occlusion unticked.  Then click Generate.
-		- If xLODGen freezes or crashes when running, re-run the process a 2nd time and it should complete successfully.
-		- Close the xLODGen window once you see "LOD generation complete".
+	- Tick all world spaces once the xLODGen window appears.  Tick Terrain LOD.  Leave Objects LOD, Trees LOD, and Occlusion unticked.  Then click Generate.
+	- If xLODGen freezes or crashes when running, re-run the process a 2nd time and it should complete successfully.
+	- Close the xLODGen window once you see "LOD generation complete".
 		
 9.  Close MO2.  Navigate to C:\xLODGen_Output\ and move this folder to C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR\mods.  Launch MO2 and enable xLODGen_Output in the left window pane.
 10.  Select TexGenx64 from the upper right drop down bar and click Run.
-	- If you get a "Could not open registry key" error, launch vanilla Skyrim VR one time from Steam.  Then exit Skyrim VR and repeat this step.  (This step can be performed outside of VR.  Simply launching Skyrim VR from your flatscreen and exiting after any Steam VR errors regarding no detected headset is sufficient.)
-	- If you get a "Found stitched object LOD textures" error click "Ignore".
-	- Click "Start" with default options once the TexGen window appears.
-	- Wait for TexGen to finish running, it typically takes several minutes.  When the process completes, click "Exit TexGen".
+		- If you get a "Could not open registry key" error, launch vanilla Skyrim VR one time from Steam.  Then exit Skyrim VR and repeat this step.  (This step can be performed outside of VR.  Simply launching Skyrim VR from your flatscreen and exiting after any Steam VR errors regarding no detected headset is sufficient.)
+		- If you get a "Found stitched object LOD textures" error click "Ignore".
+		- Click "Start" with default options once the TexGen window appears.
+		- Wait for TexGen to finish running, it typically takes several minutes.  When the process completes, click "Exit TexGen".
 11.  Close MO2.  Navigate to your \DynDOLOD\ folder from Step 6 and move the \TexGen_Output\ folder to C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR\mods.  Launch MO2 and enable TexGen_Output in the left window pane.
 12.  Right click Perfect Terrain LOD.esm in the right window pane and click "Open Origin in Explorer.  This file is only needed for generating terrain LOD.  Leaving it active when running DynDOLOD will cause worldspace problems in Enderal VR.
 13.  Select DynDOLODx64 from the upper right drop down bar and click Run.

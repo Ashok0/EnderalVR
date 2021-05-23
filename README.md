@@ -123,7 +123,14 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 
 * R.A.S.S.
 1. Select Options > Raining and set this option to "Off" if you dislike waterdroplet effects on the camera when it is raining.
- 
+
+## INI Settings (OPTIONAL)
+1. Open skyrimprefs.ini and REPLACE all text under the [LOD] section with the following lines for higher performance (OPTIONAL; Will cause visual pop-in issues): 
+
+         fLODFadeOutMultObjects=3.0000
+         fLODFadeOutMultItems=2.0000
+         fLODFadeOutMultActors=2.0000
+
 # YOU'RE ALL DONE!  ENJOY ENDERAL: FORGOTTEN STORIES IN VR!  ALL STEPS BEYOND THIS POINT ARE OPTIONAL.
 
 
@@ -630,18 +637,16 @@ Enderal SE supports language packs which allow the game to be played in Chinese,
 Recommended game settings are listed below.  Note that the above Google Drive repack has already been pre-configured with the following tweaks which are merely listed for reference.
 
 ### INI Settings
-* INI files are found in C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR\mods\profiles\
+* INI files are found in C:\ (Your Game Folder)\profiles\Enderal VR Essentials
 * These INI files will override any vanilla INI files which are stored in: C:\Users\ (Username)\Documents\My Games\Skyrim VR\  
 * Recommended INI settings: 
-1. Open INI files and add this text somewhere under the [Launcher] section: bEnableFileSelection=1 (Enables mods)
-2. Open INI files and add this text somewhere under the [Display] section: iTintTextureResolution=2048 (NPC Overhaul tweak)
-3. Open INI files and add this text somewhere under the [VR] section: bAllowVRCheating=1 (Disable bumpback when too close to an object)
-4. Open INI files and add this text somewhere under the [VR] section: fVrScale=72 (Tweaks world scale for VR; Typical values are between 72-78)
-5. Open INI files and add this text somewhere under the [VRUI] section: fHUDCompassScale=0.5000 (Decrease compass size)
-6. Open INI files and add this text somewhere under the [VRUI] section: bPlayVRMeleeWorldImpactSounds=0 (Disable impact sounds; Set to "1" if you like the effect.)
-7. Open INI files and add this text somewhere under the [VRWand] section: fBowHoldOffsetY=-6.6 (Tweaks bows for VR)
-8. Open INI files and add this text somewhere under the [Particles] section: iMaxDesired=1500 (Tweaks Embers XD)
-9. Open INI files and add this text somewhere under the [VRUI] section to decrease text size: 
+1. Open skyrimvr.ini and add this text somewhere under the [Launcher] section: bEnableFileSelection=1 (Enables mods)
+2. Open skyrimvr.ini and add this text somewhere under the [VR] section: bAllowVRCheating=1 (Disable bumpback when too close to an object)
+3. Open skyrimvr.ini and add this text somewhere under the [VR] section: fVrScale=72 (Tweaks world scale for VR; Typical values are between 72-78)
+4. Open skyrimvr.ini and add this text somewhere under the [VRUI] section: fHUDCompassScale=0.5000 (Decrease compass size)
+5. Open skyrimvr.ini and add this text somewhere under the [VRUI] section: bPlayVRMeleeWorldImpactSounds=0 (Disable impact sounds; Set to "1" if you like the effect.)
+6. Open skyrimvr.ini and add this text somewhere under the [VRWand] section: fBowHoldOffsetY=-6.6 (Tweaks bows for VR)
+7. Open skyrimvr.ini and add this text somewhere under the [VRUI] section to decrease rollover text size: 
 
          fActivateRolloverSecondaryScale=10	 
          fActivateRolloverSecondaryZ=0	 
@@ -652,6 +657,13 @@ Recommended game settings are listed below.  Note that the above Google Drive re
          fActivateRolloverWandScale=10.0000 	 
          fActivateRolloverSecondaryScale=10.0000	 
          fActivateRolloverPrimaryScale=10.0000
+	
+8. Open skyrimprefs.ini and add this text somewhere under the [Particles] section: iMaxDesired=1500 (Tweaks Embers XD)
+9. Open skyrimprefs.ini and REPLACE all text under the [LOD] section with the following lines for higher performance (OPTIONAL; Will cause visual pop-in issues): 
+
+         fLODFadeOutMultObjects=3.0000
+         fLODFadeOutMultItems=2.0000
+         fLODFadeOutMultActors=2.0000
  
 ### In-Game Settings
 1. Set Movement speed to 50%
@@ -664,7 +676,7 @@ Recommended game settings are listed below.  Note that the above Google Drive re
 8. Untick “Disable LOD” options and set the Tree Lod slider to max
 9. Enable "Skinned trees"
 10. Enable "Animated trees"
-11. Distance sliders are set to: Item 20%, Actor 20%, Objects 40%, Grass 100%
+11. Distance sliders are set to: Item 20%, Actor 20%, Objects 40%, Grass 100% (Skip this step if you adjusted [LOD] values manually in skyrimprefs.ini)
 
 ### Flinching Configuration 
 Flinching adds flinching animations.  NPCs will react with an animation when attacked with the right fist or melee weapons in either hand.  Flinching has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference. 

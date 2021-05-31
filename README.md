@@ -341,7 +341,8 @@ Enderal SE supports language packs which allow the game to be played in Chinese,
 
 ## Included Mods (Mod Organizer 2)
 [**Enderal SE v2.0.8**](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files): Complete Enderal for Skyrim Special Edition.
-
+- Add the following line to SKSE.ini (NPC Overhaul tweak):  iTintTextureResolution=2048
+- 
 [**Enderal SE Update v2.0.8.2**](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files): Update for Complete Enderal for Skyrim Special Edition. 
 
 [**Enderal SE - Bug Fixes v1.27**](https://www.nexusmods.com/enderalspecialedition/mods/2?tab=files): This mod fixes several issues with the game and also includes some small gameplay/balance fixes.

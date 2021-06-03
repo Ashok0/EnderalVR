@@ -554,6 +554,8 @@ Enderal SE supports language packs which allow the game to be played in Chinese,
 
 [**Golden Mare Mill SE v1.0**](https://www.nexusmods.com/enderalspecialedition/mods/142?tab=files): Golden Mare Mill provides a quaint player home in the scenic area of Riverville which is rewarded for the completion of the quest "Secrets from the Can".
 
+[**Undercity Home v1.0**](https://www.nexusmods.com/enderalspecialedition/mods/146?tab=files): A simple place for you to sleep in the Undercity - ported to SE.
+
 [**Storeable Phasmalist Talismans v1.01**](https://www.nexusmods.com/enderalspecialedition/mods/68?tab=files): Allows you to store away Phasmalist Talismans.
 
 [**Maps - SE v1.2**](https://www.nexusmods.com/enderal/mods/49?tab=files): You can now buy maps that will show you the landmarks of the region.
@@ -807,7 +809,8 @@ Required Plugins Load Order (right side):
 * EnderalVRpatch.esp
 * (everything else; Enderal SE specific plugins should be placed near the bottom)
 * DynDOLOD.esp (Generated with the DynDOLOD utility and should be placed near the bottom)
-* Synthesis.esp (Generated with the Synthesis utility and should be placed beneath DynDOLOD) 
+* Synthesis.esp (Generated with the Synthesis utility and should be placed beneath DynDOLOD)
+* (any conflic resoluion patches generated with SSEEdit) 
 * AllowFastTravel.esp (Must be placed at the very bottom as the above plugins alter world space which will break fast traveling) 
 
 When installing mods, if prompted to extract BSA files, select "No".

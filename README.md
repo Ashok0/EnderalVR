@@ -346,7 +346,7 @@ Enderal SE supports language packs which allow the game to be played in Chinese,
 ## Included Mods (Mod Organizer 2)
 [**Enderal SE v2.0.8**](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files): Complete Enderal for Skyrim Special Edition.
 - Add the following line to SKSE.ini (NPC Overhaul tweak):  iTintTextureResolution=2048
-- 
+
 [**Enderal SE Update v2.0.8.2**](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files): Update for Complete Enderal for Skyrim Special Edition. 
 
 [**Enderal SE - Bug Fixes v1.27**](https://www.nexusmods.com/enderalspecialedition/mods/2?tab=files): This mod fixes several issues with the game and also includes some small gameplay/balance fixes.
@@ -359,7 +359,8 @@ Enderal SE supports language packs which allow the game to be played in Chinese,
 
 [**SkyrimVRTools v2.3-BETA**](https://www.nexusmods.com/skyrimspecialedition/mods/27782?tab=files): Providing OpenVR input information and control as a service to other Skyrim VR mods.
 
-[**Enderal VR - Patch v2.8.1**](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files): Mod for playing Enderal in VR (with the SkyrimVR engine).
+[**Enderal VR - Patch v2.8.0**](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files): Mod for playing Enderal in VR (with the SkyrimVR engine).
+- Do NOT update to v2.8.1 as the latest release has a game breaking bug that will cause the game to crash on the beach after you meet up with Jespar.
 
 [**SKSEVR 2.0.12**](https://skse.silverlock.org): A tool used by many Skyrim mods that expands scripting capabilities and adds additional functionality to the game.
 

@@ -57,7 +57,7 @@ Recommended:
     - a) If using NexusMods files, login to [NexusMods](https://users.nexusmods.com/auth/sign_in) and download Enderal SE from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
     - b) If using Steam files, download Enderal SE from [HERE](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/)
 5. Download Enderal SE - Update from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
-6. Download Enderal VR - patch from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files).  **Make sure to download Enderal VR v2.8.0 under the "Old Files" section as v2.8.1 has a game breaking bug where the game will crash on the shore after meeting Jespar.**
+6. Download Enderal VR - patch from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files).  **Make sure to scroll down and download Enderal VR Beta v2.8.1 from June 11th.**
 7. Extract the contents of SkyrimVR_Repack.rar (This pack contains: SKSE, EngineFixesVR, Binaural 3D Surround Sound, The Sharper Eye, Dragonborn Speaks Naturally) to:  C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR and overwrite files if prompted.
 8. Install Mod Organizer 2 from [HERE](https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2rc1.1/Mod.Organizer-2.4.2rc1.1.exe)
 9. Launch Mod Organizer 2 and select the following options: Next > Create a global instance > Browse > Navigate to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and click "Select Folder" > Next > Next > Next > Finish

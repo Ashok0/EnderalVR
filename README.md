@@ -57,7 +57,7 @@ Recommended:
     - a) If using NexusMods files, login to [NexusMods](https://users.nexusmods.com/auth/sign_in) and download Enderal SE from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
     - b) If using Steam files, download Enderal SE from [HERE](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/)
 5. Download Enderal SE - Update from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files)
-6. Download Enderal VR - patch from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files).  **Make sure to scroll down and download Enderal VR Beta v2.8.1 from June 11th.**
+6. Download Enderal VR - patch from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files).  
 7. Extract the contents of SkyrimVR_Repack.rar (This pack contains: SKSE, EngineFixesVR, Binaural 3D Surround Sound, The Sharper Eye, Dragonborn Speaks Naturally) to:  C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR and overwrite files if prompted.
 8. Install Mod Organizer 2 from [HERE](https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2rc1.1/Mod.Organizer-2.4.2rc1.1.exe)
 9. Launch Mod Organizer 2 and select the following options: Next > Create a global instance > Browse > Navigate to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and click "Select Folder" > Next > Next > Next > Finish
@@ -359,7 +359,7 @@ Enderal SE supports language packs which allow the game to be played in Chinese,
 
 [**SkyrimVRTools v2.3-BETA**](https://www.nexusmods.com/skyrimspecialedition/mods/27782?tab=files): Providing OpenVR input information and control as a service to other Skyrim VR mods.
 
-[**Enderal VR - Patch v2.8.1**](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files): Mod for playing Enderal in VR (with the SkyrimVR engine).
+[**Enderal VR - Patch v2.9**](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files): Mod for playing Enderal in VR (with the SkyrimVR engine).
 
 [**SKSEVR 2.0.12**](https://skse.silverlock.org): A tool used by many Skyrim mods that expands scripting capabilities and adds additional functionality to the game.
 

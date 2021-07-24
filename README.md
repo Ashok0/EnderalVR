@@ -96,6 +96,7 @@ Recommended:
 		* (everything else; Enderal SE specific plugins should be placed near the bottom)
 		* DynDOLOD.esp (Generated with the DynDOLOD utility and should be placed near the bottom)
 		* Synthesis.esp (Generated with the Synthesis utility and should be placed beneath DynDOLOD) 
+		* (any conflic resoluion patches generated with SSEEdit)
 		* AllowFastTravel.esp (Must be placed at the very bottom as the above plugins alter world space which will break fast traveling)
 
 17. Select Tools > Tool Plugin > INI Editor to tweak your Enderal VR settings via that game's INI files.  (These values are already tweaked for VR.)
@@ -108,7 +109,7 @@ Recommended:
 	* Disable "Bijin Skin UNP and CBBE" if you prefer vanilla skin.
 	* Enable "Equippable Tattoo Skins UNP + CBBE" if you wish to apply tattoos/bodypaint to your character (female only).
 	* Enable "Replace spiders with wolfs and bears" if you have arachnophobia!
-19. (Optional) For Oculus Air Link / Oculus Link users only:  Download the 64-bit DLL for [OpenComposite](https://gitlab.com/znixian/OpenOVR/) to your Skyrim VR installation folder.  Backup and overwrite the existing DLL file in your Skyrim VR folder.  Not required but improves framerate by launching Enderal VR directly through the Oculus runtime and eliminating overhead from Steam VR.
+19. (Optional) For Oculus Air Link / Oculus Link users only:  Download the 64-bit DLL for [OpenComposite](https://gitlab.com/znixian/OpenOVR/) to your Skyrim VR installation folder.  Backup and overwrite the existing DLL file in your Skyrim VR folder.  Not required but improves framerate by launching Enderal VR directly through the Oculus runtime and eliminating overhead from Steam VR.  &#x1F53A;Dragonborn Speaks Naturally does not work when using OpenComposite.&#x1F53A;
 20. Make sure "SKSE" is selected in the upper right dropdown bar and click "Run" to launch and play Enderal VR!
 	* You can optionally click "Shortcut" underneath "Run" to create a shortcut for launching Enderal VR directly from the Windows desktop!
 

@@ -44,13 +44,13 @@ New Mods
 - Smaller Insects: This mod aims to resize the scale of animals in Skyrim to give a better immersive feelig in VR / First person.
 - Riverville Jail SE: Expands upon the Riverville Jail by adding a watchtower, a secret exit and more.
 - Bank of Ark SE: Adds new models for corridors, vault doors/vault door numbers and makes some changes to the interior of the Ark Bank.
-- Dear Diary - Paper UI Replacer for Enderal SE: Updates Dear Diary for Enderal compatibility.
-- Golden Mare Mill SE: Golden Mare Mill provides a quaint player home in the scenic area of Riverville which is rewarded for the completion of the quest "Secrets from the Can".
-- The Notice Board Redefined for Enderal: Replaces low quality notes on bounty boards with notes from The Notice Board Redefined.
 
 Updated Mods
+- Dear Diary - Paper UI Replacer for Enderal SE: Updates Dear Diary for Enderal compatibility.
 - VR Menu Mouse Fix: Enables mouse for SkyUI-VR. You can use your controllers to control the cursor like a smart tv remote.
 - HIGGS VR:  Hand collision, physics object grabbing, and gravity gloves-style mechanics for Skyrim VR.
+- Golden Mare Mill SE: Golden Mare Mill provides a quaint player home in the scenic area of Riverville which is rewarded for the completion of the quest "Secrets from the Can".
+- The Notice Board Redefined for Enderal: Replaces low quality notes on bounty boards with notes from The Notice Board Redefined.
 - JS Purses and Septims SE:  A complete re-creation of Septims, Coin Purses and Coin Piles.
 - DUST x2048 By Ramccoid:  This mod retextures the ambient dust particles which float in the air and also the falling dust effect in dungeons and such places.
 - Seaview Lodge SE:  Seaview Lodge adds a player home in the scenic area of the sea near Ark.

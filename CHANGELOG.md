@@ -38,19 +38,18 @@ New Mods
 - VR Refit - JS Purses and Septims Resized: A VR mod for smaller coins, coin purses, and coin piles from JS Purses and Septims. It also patches the invisible coin purse drop sound bug.
 - JS Instruments of Skyrim SE: A complete remake of the Lute, Flute & Drum. Comes in 2k and 4k versions.
 - Seaview Lodge: Seaview Lodge adds a player home in the scenic area of the sea near Ark.
-- Destructible Bottles Extended v1.5:  Hit the bottle and smash it in pieces! Latest version 1.5 includes also some glazed pottery items such as pots, jugs, plates and bowls.  Converted to Form 44.
-- Instant Equip v1.0: SKSE plugin that essentially skips weapon drawing and sheathing animations.
-- Immersive Draw Sheathe Sounds v1.0: This improves the Draw/Sheathe sounds for use in VR.
-- Smaller Insects v1.1: This mod aims to resize the scale of animals in Skyrim to give a better immersive feelig in VR / First person.
-- Riverville Jail SE v1.0: Expands upon the Riverville Jail by adding a watchtower, a secret exit and more.
-- Bank of Ark SE v1.0: Adds new models for corridors, vault doors/vault door numbers and makes some changes to the interior of the Ark Bank.
-- Dear Diary - Paper UI Replacer for Enderal SE v3.0.5: Updates Dear Diary for Enderal compatibility.
-- VR Menu Mouse Fix v1.3: Enables mouse for SkyUI-VR. You can use your controllers to control the cursor like a smart tv remote.
-- HIGGS VR v1.2.0: Hand/weapon collision, realistic object grabbing, and gravity gloves-style mechanics for Skyrim VR.
-- Golden Mare Mill SE v1.01: Golden Mare Mill provides a quaint player home in the scenic area of Riverville which is rewarded for the completion of the quest "Secrets from the Can".
-- The Notice Board Redefined for Enderal v1.1: Replaces low quality notes on bounty boards with notes from The Notice Board Redefined.
+- Destructible Bottles Extended:  Hit the bottle and smash it in pieces! Latest version 1.5 includes also some glazed pottery items such as pots, jugs, plates and bowls.  Converted to Form 44.
+- Instant Equip: SKSE plugin that essentially skips weapon drawing and sheathing animations.
+- Immersive Draw Sheathe Sounds: This improves the Draw/Sheathe sounds for use in VR.
+- Smaller Insects: This mod aims to resize the scale of animals in Skyrim to give a better immersive feelig in VR / First person.
+- Riverville Jail SE: Expands upon the Riverville Jail by adding a watchtower, a secret exit and more.
+- Bank of Ark SE: Adds new models for corridors, vault doors/vault door numbers and makes some changes to the interior of the Ark Bank.
+- Dear Diary - Paper UI Replacer for Enderal SE: Updates Dear Diary for Enderal compatibility.
+- Golden Mare Mill SE: Golden Mare Mill provides a quaint player home in the scenic area of Riverville which is rewarded for the completion of the quest "Secrets from the Can".
+- The Notice Board Redefined for Enderal: Replaces low quality notes on bounty boards with notes from The Notice Board Redefined.
 
 Updated Mods
+- VR Menu Mouse Fix: Enables mouse for SkyUI-VR. You can use your controllers to control the cursor like a smart tv remote.
 - HIGGS VR:  Hand collision, physics object grabbing, and gravity gloves-style mechanics for Skyrim VR.
 - JS Purses and Septims SE:  A complete re-creation of Septims, Coin Purses and Coin Piles.
 - DUST x2048 By Ramccoid:  This mod retextures the ambient dust particles which float in the air and also the falling dust effect in dungeons and such places.

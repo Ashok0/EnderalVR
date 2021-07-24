@@ -51,9 +51,7 @@ Updated Mods
 - HIGGS VR:  Hand collision, physics object grabbing, and gravity gloves-style mechanics for Skyrim VR.
 - Golden Mare Mill SE: Golden Mare Mill provides a quaint player home in the scenic area of Riverville which is rewarded for the completion of the quest "Secrets from the Can".
 - The Notice Board Redefined for Enderal: Replaces low quality notes on bounty boards with notes from The Notice Board Redefined.
-- JS Purses and Septims SE:  A complete re-creation of Septims, Coin Purses and Coin Piles.
 - DUST x2048 By Ramccoid:  This mod retextures the ambient dust particles which float in the air and also the falling dust effect in dungeons and such places.
-- Seaview Lodge SE:  Seaview Lodge adds a player home in the scenic area of the sea near Ark.
 - Diverse Weather:  Diversifies the weather in Enderal and adds a few new ones.
 - Embers XD: Reinstalled with Vanilla Flames for improved fire FX.
 - Kolapon's Undead Creatures Replacer: Removed ESP file to fix crash during "Old Wounds" quest.

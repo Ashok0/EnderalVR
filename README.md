@@ -1,4 +1,5 @@
 # ENDERAL VR (GOOGLE DRIVE REPACK)
+Latest update: July 23rd, 2021
 
 ## Table of contents
 * [Preamble](#preamble)

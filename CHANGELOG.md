@@ -3,12 +3,6 @@
 ### v1.07:
 Released: July 24th, 2021
 
-Updated Mods
-- Spell Wheel VR:  Selection wheel mod for Skyrim VR. It allows you to select spells, weapons, shields, arrows, potions, poisons, food, torch, armors and more without going into a menu very quickly by press of a button or button combinations to spawn the wheel and hold your hand over the item and letting go of the button. It's equipped automatically.
-
-### v1.06:
-Released: July 23rd, 2021
-
 New Mods
 - Immersive Gathering (Woodchopping and Mining) SE - VR Friendly:  Chop wood and mine ore for real!
 - Armored Flesh:  A small mod, offering improved visuals for each of the Alteration school's five armor spells.
@@ -55,6 +49,7 @@ Updated Mods
 - Dear Diary - Paper UI Replacer for Enderal SE: Updates Dear Diary for Enderal compatibility.
 - VR Menu Mouse Fix: Enables mouse for SkyUI-VR. You can use your controllers to control the cursor like a smart tv remote.
 - HIGGS VR:  Hand collision, physics object grabbing, and gravity gloves-style mechanics for Skyrim VR.
+- Spell Wheel VR:  Selection wheel mod for Skyrim VR. It allows you to select spells, weapons, shields, arrows, potions, poisons, food, torch, armors and more without going into a menu very quickly by press of a button or button combinations to spawn the wheel and hold your hand over the item and letting go of the button. It's equipped automatically.
 - Golden Mare Mill SE: Golden Mare Mill provides a quaint player home in the scenic area of Riverville which is rewarded for the completion of the quest "Secrets from the Can".
 - The Notice Board Redefined for Enderal: Replaces low quality notes on bounty boards with notes from The Notice Board Redefined.
 - DUST x2048 By Ramccoid:  This mod retextures the ambient dust particles which float in the air and also the falling dust effect in dungeons and such places.

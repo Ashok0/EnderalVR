@@ -122,8 +122,9 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 3. Select Controls > Tick "Selfie Mode" if you want to be able to view and take photos of your character in third person.  You can activate and deactivate the third person view by raising your right hand in the air. 
 
 * Spell Wheel VR MCM: 
-1. Select Presets > Spellsword (Loads preset for equipping spells and weapons from the spell wheel)
-2. Select Advanced > Set "Slow Time Scale" to 5.  (Enables slow motion when selecting items from the spell wheel)
+1. Select Presets > SpellSword + More Pages (Loads preset for equipping spells, weapons, and items from the spell wheel across multiple pages)
+2. Select General > Tick "Unequip to Grab with Higgs" (Allows you to grab potions directly from the Spell Wheel menu to your hand for added immersion)
+3. Select Advanced > Set "Slow Time Scale" to 5.  (Enables slow motion when selecting items from the spell wheel)
 
 * R.A.S.S.
 1. Select Options > Raining and set this option to "Off" if you dislike waterdroplet effects on the camera when it is raining.
@@ -435,7 +436,7 @@ If you are using a language pack, you may need to change the font used by Dear D
 	- AllowGrabWithEmptyArrowHand = 1
 	- AllowGrabWithTwoHandedOffhand = 1
 
-[**Spell Wheel VR v1.1.1**](https://www.nexusmods.com/skyrimspecialedition/mods/47630?tab=files): Selection wheel mod for Skyrim VR. It allows you to select spells, weapons, shields, arrows, potions, poisons, food, torch, armors and more without going into a menu very quickly by press of a button or button combinations to spawn the wheel and hold your hand over the item and letting go of the button. It's equipped automatically.
+[**Spell Wheel VR v1.2**](https://www.nexusmods.com/skyrimspecialedition/mods/47630?tab=files): Selection wheel mod for Skyrim VR. It allows you to select spells, weapons, shields, arrows, potions, poisons, food, torch, armors and more without going into a menu very quickly by press of a button or button combinations to spawn the wheel and hold your hand over the item and letting go of the button. It's equipped automatically.
 
 [**NavigateVR v1.5**](https://www.nexusmods.com/skyrimspecialedition/mods/47174?tab=files): This mod brings immersive navigation to VR with a functional compass
 - Replace "LHandTamrielSettlements.dds" and "RHandTamrielSettlements.dds" with maps of your choice from the "Maps - SE" mod to make the default Navigate VR map artwork lore friendly to Enderal.

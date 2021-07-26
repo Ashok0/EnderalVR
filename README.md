@@ -110,7 +110,7 @@ Recommended:
 	* Enable "Equippable Tattoo Skins UNP + CBBE" if you wish to apply tattoos/bodypaint to your character (female only).
 	* Enable "Replace spiders with wolfs and bears" if you have arachnophobia!
 19. (Optional) You can optimize your VR performance by installing either [OpenVR FSR](https://github.com/fholger/openvr_fsr) (Compatible with all headsets) or the 64-bit DLL for [OpenComposite](https://gitlab.com/znixian/OpenOVR/) (Compatible with Oculus headsets only) to your Skyrim VR installation folder.  Backup and overwrite the existing DLL file in your Skyrim VR folder.  
-		* OpenComposite improves framerates by launching Enderal VR directly through the Oculus runtime and eliminating overhead from Steam VR. &#x1F53A;Dragonborn Speaks Naturally does not work when using OpenComposite as it requires SteamVR to function properly.&#x1F53A;
+	* OpenComposite improves framerates by launching Enderal VR directly through the Oculus runtime and eliminating overhead from Steam VR. &#x1F53A;Dragonborn Speaks Naturally does not work when using OpenComposite as it requires SteamVR to function properly.&#x1F53A;
 20. Make sure "SKSE" is selected in the upper right dropdown bar and click "Run" to launch and play Enderal VR!
 	* You can optionally click "Shortcut" underneath "Run" to create a shortcut for launching Enderal VR directly from the Windows desktop!
 

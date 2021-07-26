@@ -1,5 +1,5 @@
 # ENDERAL VR (GOOGLE DRIVE REPACK)
-Latest update: July 24th, 2021
+Latest update: July 26th, 2021
 
 ## Table of contents
 * [Preamble](#preamble)
@@ -46,7 +46,7 @@ Recommended:
 * [Enderal: Forgotten Stories (Special Edition)](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition)
 * [Mod Organizer 2 v2.4.2](https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2/Mod.Organizer-2.4.2.exe)
 * [Free NexusMods account](https://www.nexusmods.com/)
-* [ModOrganizer_Repack.rar](https://drive.google.com/file/d/1H18DLSYQNSpfhwv7mPrn6C2kpsIw2bls/view?usp=sharing)
+* [ModOrganizer_Repack.rar](https://drive.google.com/file/d/1for2MPAEnRfZpAmpbJoCq0IXcG8uR7qe/view?usp=sharing)
 * [SkyrimVR_Repack.rar](https://drive.google.com/file/d/1hR181-HdgTA20hRhMfLSCGG8A-OpPRV-/view?usp=sharing)
 	
 ## Installation
@@ -563,8 +563,6 @@ If you are using a language pack, you may need to change the font used by Dear D
 [**CC's Enhanced Ore Veins SSE Edition v8.0.1 - Patch**](https://www.nexusmods.com/skyrimspecialedition/mods/1306?tab=files): Install this to resolve the issue where all mines revert to vanilla textures when depleted. 
 
 [**Rustic Alchemy and Enchanting Tables v1.0**](https://www.nexusmods.com/skyrim/mods/62328?tab=files): A rustic overhaul of the alchemy and enchanting tables of Skyrim. The aim was to bring real antiquity to these arcane crafting tables as is fitting of their ancient origin.
-
-[**ElSopa - Iron Weapons Redone SE v1.1**](https://www.nexusmods.com/skyrimspecialedition/mods/52605?tab=files): Every Iron Weapon Redone. New Meshes. New Textures. No ESP. Performance Friendly. All Resolutions.
 
 [**High Poly Project v4.95**](https://www.nexusmods.com/skyrimspecialedition/mods/12029): An on going process to improve the models of the game with more polygons , UV edits or just replace them all together. SMIM was the inspiration and the lack of similar mods led me to make this.
 - Should be installed with a Custom Install.  Skip "Farmhouse Stone Walls" as these are better replaced by seperate mods. Skip "Whiterun Clutter", "Smelter Coal", "Furniture", "Plants", and "Riften 3D Leaves" as these at a minimum are incompatible with Enderal VR and can cause purple texture glitches.

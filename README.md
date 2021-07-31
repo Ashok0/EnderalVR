@@ -159,6 +159,7 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 * &#x1F53A; If using ENB Particle Patch, Static Mesh Improvement Mod (SMIM), Blended Roads, Water for ENB, Embers XD / Embers HD, Glorious Doors of Skyrim, Yee - A New Snowflake Mod, Kanjs - Chaurus Eggs and Staff, Enhanced Vanilla Trees SE, or Kolapon's Undead Creatures Replacer you must make sure you are NOT using any plugins for these mods.  Only meshes and textures may be used.  Delete ALL .esp files associated with these mods before launching the game. &#x1F53A; 
 * &#x1F53A; Dragonborn Speaks Naturally does not work when using OpenComposite. &#x1F53A; 
 * &#x1F53A; With the exception of texture/mesh mods, mods cannot always be safely removed mid-savegame. &#x1F53A;
+* &#x1F53A; Enderal VR v2.9.1 fixes tavern games but causes Enderal to crash to the desktop when approaching the beach after meeting Jespar.  You will need to manually downgrade to [Enderal VR v2.9.0](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files) to traverse the beach area. &#x1F53A;
 
 ## Noteworthy mods
 [**Enderal SE**](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files): Complete Enderal for Skyrim Special Edition.

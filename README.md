@@ -942,7 +942,6 @@ Recommended game settings are listed below.  Note that the above Google Drive re
          fBlockMaximumDistance=90000.0000
          fSplitDistanceMult=0.750
          fTreeLoadDistance=25600.0000
-        fLODFadeOutMultActors=2.0000
  
 ### In-Game Settings
 1. Set Movement speed to 50%

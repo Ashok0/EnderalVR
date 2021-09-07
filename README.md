@@ -1,5 +1,5 @@
 # ENDERAL VR (GOOGLE DRIVE REPACK)
-Latest update: July 26th, 2021
+Latest update: September 7th, 2021 (v1.101)
 
 ## Table of contents
 * [Preamble](#preamble)
@@ -18,12 +18,16 @@ Latest update: July 26th, 2021
 * [Included Mods and Tools (Skyrim VR Installation Folder)](#Included-Mods-and-Tools-Skyrim-VR-Installation-Folder)
 * [Included Mods (Mod Organizer 2)](#included-mods-mod-organizer-2)
 * [Game Tweaks](#game-tweaks)
+* [Nemesis Configuration](#nemesis-configuration)
+* [DynDOLOD 3 and SkyVRaan Configuration](#dyndolod-3-and-skyvraan-configuration)
 * [Changelog](#changelog)
 
 ## Preamble
 This guide describes how to configure Skyrim VR to play Enderal: Forgotten Stories SE in VR using Mod Organizer 2.  Note that the ONLY version of Skyrim you need is Skyrim VR.  The Steam edition of Enderal SE is based off the Skyrim SE engine which does not support VR.  While it is NOT possible to add VR to Enderal SE, Skyrim VR can be "modded" with Enderal SE's files (available at NexusMods and Steam) which will allow you to play through the entire game in VR!
 
-This guide simplifies the process of configuring all the required Skyrim VR mods and patches necessary to play Enderal SE in VR by using two mod repack files from Google Drive.  The installation process consists of installing Skyrim VR and Mod Organizer 2, followed by extracting two repack files to your Skyrim VR and Mod Organizer 2 folders respectively.  This guide uses a lightweight modlist designed to deliver an optimal VR experience with minimal performance loss.  This modlist was optimized for Virtual Desktop and Air Link and should perform extremely well when playing the game wirelessly.  Special thanks to the Enderal SE modding team and sasa2727 for the VR patch which made this guide possible!
+This guide simplifies the process of configuring all the required Skyrim VR mods and patches necessary to play Enderal SE in VR by using two mod repack files from Google Drive.  The installation process consists of installing Skyrim VR and Mod Organizer 2, followed by extracting two repack files to your Skyrim VR and Mod Organizer 2 folders respectively.  This guide uses a lightweight modlist designed to deliver an optimal VR experience with minimal performance loss.  Most of the included mods are simple texture mods which can be safely disabled at any time if you prefer an even lighter loadout with vanilla textures.  This modlist was optimized for Virtual Desktop and Air Link and should perform extremely well when playing the game wirelessly.  
+
+Special thanks to the Enderal SE modding team and sasa2727 for the VR patch which made this guide possible!
 
 ## System Requirements
 Minimum:
@@ -31,14 +35,14 @@ Minimum:
 * RAM: 8 GB
 * OS: Windows 7/8.1/10 (64-bit versions)
 * GPU: Nvidia GeForce GTX 970 / AMD RX 480 8GB or better
-* STORAGE: 52GB
+* STORAGE: 57GB
 
 Recommended:
 * CPU: Intel Core i7-4790 or AMD Ryzen 5 1500X or better
 * RAM: 8 GB
 * OS: Windows 10 (64-bit versions)
 * GPU: Nvidia GeForce GTX 1070 8GB or better
-* STORAGE: 52GB
+* STORAGE: 57GB
 * WI-FI: 802.11ac or 802.11ax (for Virtual Desktop or Air Link; optional) 
 
 ## Requirements
@@ -46,7 +50,7 @@ Recommended:
 * [Enderal: Forgotten Stories (Special Edition)](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition)
 * [Mod Organizer 2 v2.4.2](https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2/Mod.Organizer-2.4.2.exe)
 * [Free NexusMods account](https://www.nexusmods.com/)
-* [ModOrganizer_Repack.rar](https://drive.google.com/file/d/1for2MPAEnRfZpAmpbJoCq0IXcG8uR7qe/view?usp=sharing)
+* [ModOrganizer_Repack.rar](https://drive.google.com/file/d/1x1QixEZ1dIIgVlRh9H4Euxnmma4OkXnD/view?usp=sharing)
 * [SkyrimVR_Repack.rar](https://drive.google.com/file/d/1hR181-HdgTA20hRhMfLSCGG8A-OpPRV-/view?usp=sharing)
 	
 ## Installation
@@ -85,7 +89,12 @@ Recommended:
 		* moreHUD VR 
 		* SkyrimVRTools
 		* Enderal VR patch
-		* (everything else)
+		* (everything else; Enderal SE specific mods should be placed near the bottom)
+		* Nemesis_Output
+		* xLODGen_Output
+		* TexGen_Output
+		* DynDOLOD_Output
+		* Synthesis_Output
 
 	* Required Plugins Load Order (right side):
 		* Enderal Forgotten Stories.esm
@@ -96,9 +105,7 @@ Recommended:
 		* (everything else; Enderal SE specific plugins should be placed near the bottom)
 		* DynDOLOD.esp (Generated with the DynDOLOD utility and should be placed near the bottom)
 		* Synthesis.esp (Generated with the Synthesis utility and should be placed beneath DynDOLOD) 
-		* (any conflic resoluion patches generated with SSEEdit)
-		* AllowFastTravel.esp (Must be placed at the very bottom as the above plugins alter world space which will break fast traveling)
-
+		
 17. Select Tools > Tool Plugin > INI Editor to tweak your Enderal VR settings via that game's INI files.  (These values are already tweaked for VR.)
 18. Configure your mod loadout: 
 	* Disable "Dear Diary VR" if you prefer to use the vanilla SkyUI menu.
@@ -110,7 +117,7 @@ Recommended:
 	* Enable "Equippable Tattoo Skins UNP + CBBE" if you wish to apply tattoos/bodypaint to your character (female only).
 	* Enable "Replace spiders with wolfs and bears" if you have arachnophobia!
 19. (Optional) You can optimize your VR performance by installing either [OpenVR FSR](https://github.com/fholger/openvr_fsr) (Compatible with all headsets) or the 64-bit DLL for [OpenComposite](https://gitlab.com/znixian/OpenOVR/) (Compatible with Oculus headsets only) to your Skyrim VR installation folder.  Backup and overwrite the existing DLL file in your Skyrim VR folder.  
-	* OpenComposite improves framerates by launching Enderal VR directly through the Oculus runtime and eliminating overhead from Steam VR. &#x1F53A;Dragonborn Speaks Naturally does not work when using OpenComposite as it requires SteamVR to function properly.&#x1F53A;
+	* OpenComposite improves framerates by launching Enderal VR directly through the Oculus runtime and eliminating overhead from Steam VR.
 20. Make sure "SKSE" is selected in the upper right dropdown bar and click "Run" to launch and play Enderal VR!
 	* You can optionally click "Shortcut" underneath "Run" to create a shortcut for launching Enderal VR directly from the Windows desktop!
 
@@ -118,9 +125,9 @@ Recommended:
 ## MCM Settings
 Once you start a new game, you can configure your individual Enderal VR mods through the in-game Mod Configuration Menu (MCM) which is accessible under System > Mod Configuration.  Most MCM settings can be left as default but the following changes are recommended:
 * VRIK MCM (Preconfigured with this Google Drive repack): 
-1. Disable "Adjust Held Weapons Position". (Fixes scoped bow aiming)
-2. Select Body Holsters > Scroll down to Left Shoulder Holster > Untick "Visible" (Prevents your bow from clipping into the edge of your FOV when crouching in real life)  
-3. Select Controls > Tick "Selfie Mode" if you want to be able to view and take photos of your character in third person.  You can activate and deactivate the third person view by raising your right hand in the air. 
+1. Disable "Adjust Held Weapons Position" to fix scoped bow aiming.  (Disabled by default)
+2. Select Body Holsters > Scroll down to Left Shoulder Holster > Untick "Visible".  This prevents your bow from clipping into the edge of your FOV when crouching in real life. (Unticked by default) 
+3. Select Controls > Tick "Selfie Mode" if you want to be able to view and take photos of your character in third person.  You can activate and deactivate the third person view by raising your right hand in the air.  (Disabled by default)
 
 * Spell Wheel VR MCM: 
 1. Select Presets > SpellSword + More Pages (Loads preset for equipping spells, weapons, and items from the spell wheel across multiple pages)
@@ -131,9 +138,8 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 1. Select Options > Raining and set this option to "Off" if you dislike waterdroplet effects on the camera when it is raining.
 
 
+
 # YOU'RE ALL DONE!  ENJOY ENDERAL: FORGOTTEN STORIES IN VR!  ALL STEPS BEYOND THIS POINT ARE OPTIONAL.
-
-
 
 
 
@@ -147,19 +153,21 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 * Loading saved games during the opening tutorial may cause VRIK to glitch out.
 * If you need to reset your height in-game, do not run "Floor Fix" through Open VR Advanced Settings as this may causes problems with VRIK where you get stuck in "Sneak" mode.  Recalibrate your height through the VRIK Calibration Power.  You can do this by selecting the VRIK Calibration Power from the magic menu.
 * If you are using Virtual Desktop, you may see a subtle "rectangular box" around the edges of the view where the image becomes blurry outside of the rectangle.  This effect is normal and is caused by the foveation used by Virtual Desktop when streaming Enderal VR wirelessly.
-* If you are using Virtual Desktop, Mod Organizer 2 may freeze up when starting a new game if SteamVR is already running.  Selecting "Exit SteamVR" from inside of Virtual Desktop before hitting "Run" in Mod Organizer 2 should fix this issue.
+* Mod Organizer 2 may freeze up when starting a new game if SteamVR is already running.  Selecting "Exit SteamVR" from inside Virtual Desktop or "Quit App" from inside Oculus Home before hitting "Run" in Mod Organizer 2 should fix this issue.
+* There are physics issues with shattered glass.
 * If you have trouble selecting ingredients at alchemy benches, on your left controller be sure to tap the analog stick to the right which should allow you to select ingredients for crafting.
 * If you have issues equipping arrows for your bow, you need to reach behind your back in real life to grab an arrow.  This is a feature from the included Simple Realistic Archery mod. 
 * If the Hero menu doesn't pop up when raising one controller over your head, make sure the Enderal window is active and in focus on the Windows desktop.
 * The werewolf race has issues in Enderal VR so avoid using the lycanthropy tree perk.
+* The Unique Sets Replacer SE mod significantly improves many Enderalean armor sets but some armor pieces may cause an invisible wrist glitch.  This is typically not noticable when you are wearing gauntlets.
 * Steam achievements do not work.
 * Crouching in real life will cause a minor "hitch" in your video as you approach the ground.  This is due to the "Automatic Sneaking" feature which is enabled by default.  If you dislike this effect and don't care about physical sneaking, you can turn this feature off from the in-game settings.
 * The loading screen artwork is out of frame.
+* The "Dirt & Blood" mod adds a 'Wash and Rinse' spell to your magic list.  This spell does not work in Enderal VR, you have to rinse dirt and blood off your body by swimming in water or standing in the rain.
 * The talent points in the game are too high to reach in VR.  To use them, install [OVR Advanced Settings](https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings) which allows you to change your player height on the fly.  From the in-game Steam menu, select OVR Advanced Settings > Space Offsets -> Y-Axis (up/down). Just lower the value there to "grow" ingame. Note that this fix requires SteamVR and is not compatible with OpenComposite.    
-* &#x1F53A; If using ENB Particle Patch, Static Mesh Improvement Mod (SMIM), Blended Roads, Water for ENB, Embers XD / Embers HD, Glorious Doors of Skyrim, Yee - A New Snowflake Mod, Kanjs - Chaurus Eggs and Staff, Enhanced Vanilla Trees SE, or Kolapon's Undead Creatures Replacer you must make sure you are NOT using any plugins for these mods.  Only meshes and textures may be used.  Delete ALL .esp files associated with these mods before launching the game. &#x1F53A; 
-* &#x1F53A; Dragonborn Speaks Naturally does not work when using OpenComposite. &#x1F53A; 
+* &#x1F53A; If using ENB Particle Patch, Static Mesh Improvement Mod (SMIM), Blended Roads, Water for ENB, Embers XD / Embers HD, Glorious Doors of Skyrim, Kanjs - Chaurus Eggs and Staff, Enhanced Vanilla Trees SE, or Auriels Holy Bow Redux you must make sure you are NOT using any plugins for these mods.  Only meshes and textures may be used.  Delete ALL .esp files associated with these mods before launching the game. &#x1F53A; 
+* &#x1F53A; When using OpenComposite, you cannot have any audio recording devices attached to your PC aside from your VR headset or Dragonborn Speaks Naturally will not work. &#x1F53A; 
 * &#x1F53A; With the exception of texture/mesh mods, mods cannot always be safely removed mid-savegame. &#x1F53A;
-* &#x1F53A; If you experience a crash to the desktop on the beach after meeting Jespar, delete the following file from your Enderal VR folder: \meshes\actors\werewolfbeast\character assets\skeleton.nif &#x1F53A;
 
 ## Noteworthy mods
 [**Enderal SE**](https://www.nexusmods.com/enderalspecialedition/mods/1?tab=files): Complete Enderal for Skyrim Special Edition.
@@ -179,6 +187,8 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 [**VRIK**](https://www.nexusmods.com/skyrimspecialedition/mods/23416?tab=posts): VRIK will display the player character's body in SkyrimVR and animate it to match your movements. Weapons can be kept, drawn, and sheathed in up to 14 visible holsters on your body.  Be sure to untick the "Visible" setting for the Left Shoulder Holster in the VRIK MCM.  This prevents your bow from clipping into the edge of your FOV when crouching in real life.
 
 [**VRIK Rift-Index-WMR Controller Bindings**](https://www.nexusmods.com/skyrimspecialedition/mods/23416?tab=files): These control bindings are an optional add-on for VRIK to make it easier to use holsters.  These bindings are disabled by default but MUST be enabled if you are using Index controllers.
+
+[**VRIK Neardistance Fix Patch for Build**](https://mega.nz/file/fABDEKBL#6hMat5Urx2QkCNB7Z_-PCFYC3YPLcoTYJLvq3sgcMMA): Sets fNearDistance to 13 to fix mountain flickering.
 
 [**HIGGS VR**](https://www.nexusmods.com/skyrimspecialedition/mods/43930?tab=files): Hand collision, physics object grabbing, and gravity gloves-style mechanics for Skyrim VR.
 
@@ -208,6 +218,8 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 
 [**Scoped Bows SE**](https://www.nexusmods.com/skyrimspecialedition/mods/912?tab=files): Scoped Bows is a huge weapons mod that adds scoped variants of all bows to the game, designed to be used without crosshair.  You MUST disable "Adjust Held Weapons Position" in the VRIK MCM or aiming through scopes will not work properly.
 
+[**Simple Iron Sights for Sighted Crossbows VR**](https://www.nexusmods.com/skyrimspecialedition/mods/38946?tab=files): Changes the sights included in Sighted Crossbows VR into more of a simplistic, medieval style.  A great mod to use in combination with HIGGS which now allows crossbows to be used as two handed weapons.
+
 [**HLP Night Sky High**](https://www.nexusmods.com/skyrimspecialedition/mods/8752) and [**STO - Stars 4K Only small stars**](https://www.nexusmods.com/skyrimspecialedition/mods/4931?tab=files): These two mods are extremely underrated gems which greatly improve nighttime scenes in VR with realistic lore-friendly night sky textures.  These mods use very small stars which greatly reduces SDE in VR which tends to be a problem with other night sky mods as stars have very high contrast and are drawn very far in the distance.  You can use both of these mods together or you can use one or the other for slightly different effects.  Both night sky mods are enabled by default.  
 
 [**High Poly Project**](https://www.nexusmods.com/skyrimspecialedition/mods/12029?tab=files): This mod greatly improves visuals by switching out many items and objects with more elaborate 3D versions.  Some of the textures/meshes in this mod are not Enderal VR friendly and will cause purple texture glitches.  All known problematic files have been removed but this mod has been disabled by default due to potential bugs.  It contains no plugins, however, and is safe to use and will not break your saved game.  Feel free to experiment with enabling this mod for better visuals and immersion!
@@ -226,13 +238,11 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 
 [**SkyVRaan - Shimmering VR Waters**](https://www.nexusmods.com/skyrimspecialedition/mods/30571?tab=files): Adds a fake reflection effect to Skyrim VR's outdoor water. It breaks up the distant LOD, shows wave movement on the distant water, and gives an illusion of water depth in the distance. Also has improved realism and clarity of near water.
 
-&#x1F53A; **SMALL PERFORMANCE DROP --- For lower end GPUs, you may wish to experiment with disabling "SkyVRaan - Shimmering VR Waters" in Mod Organizer 2.** &#x1F53A;
+[**Dirt and Blood - Dynamic Visual Effects**](https://www.nexusmods.com/skyrimspecialedition/mods/38886?tab=files): Your character will accumulate dirt and blood dynamically, which you can clean by swimming or standing in the rain. The effects are mostly visual only and do not affect gameplay. NPCs will also get bloody as a result of battles. Mod is designed to be simple and lightweight.
 
 [**Replace spiders with wolfs and bears**](https://www.nexusmods.com/enderalspecialedition/mods/31?tab=files): Replaces spiders with wolves and bears.  Enable if you have arachnophobia! 
 
 [**DynDOLOD**](https://www.nexusmods.com/skyrimspecialedition/mods/32382/?tab=files): Adds distant LOD for objects and trees to Skyrim.  When looking across the horizon in large open areas, this mod allows you to see FAR more detail than what is possible with the vanilla game, even with in-game LOD settings set to max.
-
-&#x1F53A; **SMALL PERFORMANCE DROP --- For lower end GPUs, you may wish to experiment with disabling DynDOLOD by disabling "xLODGen_Output", "TexGen_Output", and "DynDOLOD_Output" in Mod Organizer 2.** &#x1F53A;
 
 
 

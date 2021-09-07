@@ -1043,7 +1043,7 @@ Note that many DynDOLOD guides on the Web are heavily outdated or are not relev
 21.  DynDOLOD is now successfully configured!  You should see FAR more detail in the distance when looking across large open areas of the game! (You may need to re-run this process if you change your load order.)
 
 ### SkyVRaan Configuration 
-SkyVRaan adds shimmering water effects to the game.  SkyVRaan has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference.  This process should be run immediately after xLODGen/TexGen/DynDOLOD (if using xLODGen/TexGen/DynDOLOD).  If you have installed a terrain LOD mod, disable any correpsonding .esm files when patching SkyVRaan as terrain LOD .esm files only need to be active when running xLODGen/TexGen. 
+SkyVRaan adds shimmering water effects to the game.  SkyVRaan has been pre-configured with this Google Drive repack but the configuration process has been documented below for reference.  This process should be run immediately before or after xLODGen/TexGen/DynDOLOD (if using xLODGen/TexGen/DynDOLOD).  DynDOLOD and SkyVRaan's Synthesis plugin should be placed in your load order in the order that they are generated.
 
 1.  Download SkyVRaan from [HERE](https://www.nexusmods.com/skyrimspecialedition/mods/30571?tab=files) and install it through MO2 underneath other grass and water mods.  Tick "Rocky River Beds", "Rally's Water Foam", and "Improved Water Normals for Vanilla" and leave all other settings at default.
 2.  If you have updated Synthesis, you MUST remove files from older versions by removing the following folder:  C:\Users\ (My Username)\AppData\Local\Temp\Synthesis
@@ -1079,7 +1079,12 @@ Required Mod Load Order (left side):
 * moreHUD VR 
 * SkyrimVRTools
 * Enderal VR patch
-* (everything else)
+* (everything else; Enderal SE specific mods should be placed near the bottom)
+* Nemesis_Output
+* xLODGen_Output
+* TexGen_Output
+* DynDOLOD_Output
+* Synthesis_Output
 
 Required Plugins Load Order (right side):
 * Enderal Forgotten Stories.esm
@@ -1089,9 +1094,7 @@ Required Plugins Load Order (right side):
 * EnderalVRpatch.esp
 * (everything else; Enderal SE specific plugins should be placed near the bottom)
 * DynDOLOD.esp (Generated with the DynDOLOD utility and should be placed near the bottom)
-* Synthesis.esp (Generated with the Synthesis utility and should be placed beneath DynDOLOD)
-* (any conflic resoluion patches generated with SSEEdit) 
-* AllowFastTravel.esp (Must be placed at the very bottom as the above plugins alter world space which will break fast traveling) 
+* Synthesis.esp (Generated with the Synthesis utility and should be placed beneath DynDOLOD) 
 
 When installing mods, if prompted to extract BSA files, select "No".
 

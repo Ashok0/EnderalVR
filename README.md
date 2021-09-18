@@ -133,7 +133,7 @@ Once you start a new game, you can configure your individual Enderal VR mods thr
 1. Select Presets > SpellSword + More Pages (Loads preset for equipping spells, weapons, and items from the spell wheel across multiple pages)
 2. Select General > Tick "Unequip to Grab with Higgs" (Allows you to grab potions directly from the Spell Wheel menu to your hand for added immersion)
 3. Select Advanced > Set "Slow Time Scale" to 5.  (Enables slow motion when selecting items from the spell wheel)
-4. Select Controls > Set "Cast Spells" to "When Hand Closes + Opens" to allow you to cast elemental spells by quickly squeezing your fist and then opening your hands. 
+4. Select Controls > Set "Cast Spells" to "When Hand Closes + Opens" to allow you to cast elemental spells by quickly squeezing your fist and then opening your hand. 
 
 * R.A.S.S.
 1. Select Options > Raining and set this option to "Off" if you dislike waterdroplet effects on the camera when it is raining.

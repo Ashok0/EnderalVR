@@ -381,8 +381,6 @@ If you are using a language pack, you may need to change the font used by Dear D
 
 [**Mod Organizer 2 v2.4.3**](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files): Mod Organizer (MO) is a tool for managing mod collections of arbitrary size. It is specifically designed for people who like to experiment with mods and thus need an easy and reliable way to install and uninstall them.
 
-[**UI Tweaks v1.0**](https://www.nexusmods.com/skyrim/mods/70774/?tab=files): Theme for Mod Organizer, based on the default style with better and cleaner UI elements.
-
 [**Nemesis Unlimited Behavior Engine v0.84-beta**](https://www.nexusmods.com/skyrimspecialedition/mods/60033?tab=files): An animation framework that enables behavior mods like CGO, SkySA, Ultimate Combat and most FNIS dependent mods to work together.
 
 [**xLODGen Beta 85**](https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-80-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/): Tool for generating terrain LOD.

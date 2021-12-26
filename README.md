@@ -69,10 +69,10 @@ Recommended:
 10. Delete the \mods\ and \profiles\ folders and replace them with the same folders that are inside ModOrganizer_Repack.rar.  
 11. Launch Mod Organizer 2.  
 12. Install Enderal SE to Mod Organizer 2
-    - If using eddoursul.win files, place the files in a folder called "Enderal SE" and drag and drop the folder to the left window pane in MO2.  
+    - If using eddoursul.win files, place the files from step 4 in a folder called "Enderal SE" and drag and drop the folder to the left window pane in MO2.  
     - If using Steam files, open C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR\mods folder and create an \Enderal SE\ folder.  Copy files from C:\Program Files (x86)\Steam\steamapps\common\Enderal Special Edition\Data\ to \Enderal SE\.  (Skip Skyrim - Animations.* thru Skyrim - Textures.*)
 13. Install Enderal VR - patch to Mod Organizer 2
-    - Drag and drop the "Enderal VR - patch" file from step 6 to the left window pane in MO2.
+    - Drag and drop the "Enderal VR - patch" file from step 5 to the left window pane in MO2.
 14. Enable "Enderal SE" and "Enderal VR - patch" in Mod Organizer 2 by ticking their associated checkbox in the left window pane.
 15. Configure Load Order
 

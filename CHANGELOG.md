@@ -15,6 +15,7 @@ Updated Tools:
 - DynDOLOD Standalone 3.0 Alpha-58: DynDOLOD is a set of simple tools based on xEdit/xLODGen to automatically create a Skyrim mod based on the load order which adds distant LOD for objects and trees to Skyrim. By combining DynDOLOD with xLODGen users can create drastically enhanced static object LOD + tree LOD and the new, optional dynamic distant object LOD in a few simple steps.
 - xLODGen Beta 85: Tool for generating terrain LOD.
 - SSEEdit v4.0.4: SSEEdit is the Skyrim: Special Edition version of xEdit. xEdit is an advanced graphical module viewer/editor and conflict detector.
+- LOOT v0.17: LOOT is a plugin load order optimisation tool for Skyrim VR. It is designed to assist mod users in avoiding detrimental conflicts, by automatically calculating a load order that satisfies all plugin dependencies and maximises each plugin's impact on the user's game.
 
 New & Updated Mods:
 
@@ -30,7 +31,7 @@ New & Updated Mods:
 - Storm Lightning for SSE and VR v1.4.13: Added support for Anniversary Edition - 1.6.342 version.
 - Animated Forge Water v0.5: Fix Elsopa anvil's missing heat effect (existing Elsopa anvil bug).
 - Enderal SE - Bears of the North v1.01: Updated for Enderal 2.0.10. Reduced the size of the bears slightly to avoid problems with melee range and pathing (still bigger than vanilla).
-- Path of the Prophet (No Floating Quest Marker) v1.0: Removes floating quest markers from the game. Quest markers are still viewable on the compass.
+- Path of the Prophet (No Floating Quest Marker) v1.03: Removes floating quest markers from the game. Quest markers are still viewable on the compass.
 - Crash Logger VR v1.0: Generates crash logs when the game Just Works™. This is a VR port using fudgyduff's MIT source.
 - Improved Bound Sword and Dagger Collision v1.0: More accurate collision for the bound dagger and sword.
 - A Follower Named Ishan v1.2: Adds a custom voiced Qyranian follower at the Drunken Bee in Riverville.

@@ -63,7 +63,7 @@ Recommended:
 4. Download Enderal SE from [eddoursul.win](https://eddoursul.win/mods/enderal-se/) OR [Steam](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/).
 5. Download Enderal VR - patch from [HERE](https://www.nexusmods.com/enderalspecialedition/mods/8?tab=files).  
 6. Extract the contents of SkyrimVR_Repack.rar (This pack contains: SKSE, EngineFixesVR, Binaural 3D Surround Sound, The Sharper Eye, Dragonborn Speaks Naturally) to:  C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR and overwrite files if prompted.
-7. Install Mod Organizer 2 from [HERE](https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2rc1.1/Mod.Organizer-2.4.2rc1.1.exe)
+7. Install Mod Organizer 2 from [HERE](https://github.com/ModOrganizer2/modorganizer/releases/)
 8. Launch Mod Organizer 2 and select the following options: Next > Create a global instance > Browse > Navigate to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and click "Select Folder" > Next > Next > Next > Finish
    - After performing these steps, the upper left drop down bar should say "SKSE".  If not... Click the drop down bar > Select Edit > Set "Binary" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR\sksevr_loader.exe" and "Start in" to "C:\Program Files (x86)\Steam\steamapps\common\SkyrimVR" and hit OK. 
 9. Navigate to C:\Users\ (Username)\AppData\Local\ModOrganizer\Skyrim VR

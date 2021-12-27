@@ -91,7 +91,7 @@ Removed Mods:
 
 - Stockade Brown Timber 2K v1.1: Redundant with 4K Stockade.
 
-### v1.101:
+### v1.10:
 Released: September 7th, 2021
 
 New Mods

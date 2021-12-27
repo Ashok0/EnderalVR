@@ -18,11 +18,11 @@ Updated Tools:
 
 New & Updated Mods:
 
-- Intense Sandstorms v1.02: Decreased the density of the effect, especially at night.
-- Golden Mare Mill SE v1.02: Removed some identical to master entries (this fixes some dialogue being English in German/Russian).
 - Enderal SE Update v2.0.11: Update for Complete Enderal for Skyrim Special Edition. See full changelog here: https://eddoursul.win/changelogs/mod/enderal-se/
 - Enderal SE - Bug Fixes v1.30: Updated for Enderal 2.0.10.
 - Enderal VR - Patch v3.1: Update INI files to support Enderal SE 2.0.11. Small improvements of mq07a: less fades, lift now works with first person camera in VR. Use of skyrim loadingmenu.swf. With TAA enabled, loading menus work correctly.
+- Intense Sandstorms v1.02: Decreased the density of the effect, especially at night.
+- Golden Mare Mill SE v1.02: Removed some identical to master entries (this fixes some dialogue being English in German/Russian).
 - VR Address Library for SKSEVR v0.19.0: Add support for dialoguemovementenabler (5de6061). Add rememberlockpick angle offsets (6dcc78b). Add support for whosequest and scaleform (5e1a637).
 - Embers XD v2.4.9: An Embers XD style makeover to hanging oil traps. An open smelter with coals inside, particle lights (Forges Add-On). A custom coal pile next to smelter (Forges Add-On).
 - WiZkiD Carriages v1.3: Added SMIM missing chain texture. Removed Burnt Wood burntrubblecart01.nif. Added a Burnt Wood separate patch.
